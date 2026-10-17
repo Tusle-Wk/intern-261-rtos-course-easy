@@ -57,7 +57,12 @@ def w1ex3(r):
     period = r.choice([7, 11, 13, 17, 19, 23])
     return {
         "PERIOD_MS": (period, "ms", "Chu ky can giu cua task tuan hoan"),
-        "WORK_JITTER_US": (r.choice([200, 400, 600, 900]), "us",
+        # Phai > 1 tick (1000 us o cau hinh 1 kHz), khong chi "gan bang", de vong
+        # lap busy-wait vuot ranh gioi tick truoc khi goi vTaskDelay(). Neu khong,
+        # vTaskDelay va xTaskDelayUntil cho ket qua giong het nhau o 1 kHz (khong
+        # the tao drift), lam rubric "drift cua vTaskDelay KHONG xap xi 0" khong
+        # the dat duoc bang do that. Xem bugs.md #4, mutations.md M1.
+        "WORK_JITTER_US": (r.choice([1100, 1400, 1800, 2400]), "us",
                            "Tai gia bien doi trong than vong lap"),
         "SAMPLE_COUNT": (r.choice([500, 800, 1000]), "lan",
                          "So chu ky phai do de tinh jitter"),

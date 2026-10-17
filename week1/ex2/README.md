@@ -31,7 +31,8 @@ Tự tạo ra starvation, đo được nó, rồi sửa.
 - `PREDICTION.md` commit trước khi nạp.
 
 ## Đạt yêu cầu khi
-- Chỉ ra đúng trên ảnh thời điểm preemption xảy ra, với dấu thời gian.
+- Chỉ ra đúng trên ảnh **bước 4** thời điểm preemption xảy ra, với dấu thời gian;
+  và giải thích được vì sao ảnh **bước 2** không có preemption nào (starvation).
 - Time slice đo được ở bước 4 khớp với `configTICK_RATE_HZ` (sai số < 5%).
 - Giải thích được tại sao cách sửa ở bước 5 hoạt động, và nói được cách sửa đó
   **đã đánh đổi gì**.
