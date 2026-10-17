@@ -3,21 +3,21 @@
 # Điền giá trị vào chỗ <?>. Đây là file bạn nộp; copy sang FreeRTOSConfig.h thật.
 # Mỗi dòng phải giải thích được trong buổi vấn đáp.
 
-configCPU_CLOCK_HZ                      <?>
+configCPU_CLOCK_HZ                      ( ( unsigned long ) 72000000 )
 configTICK_RATE_HZ                      1000
-configMAX_PRIORITIES                    <?>
-configMINIMAL_STACK_SIZE                <?>
-configTOTAL_HEAP_SIZE                   <?>
+configMAX_PRIORITIES                    5
+configMINIMAL_STACK_SIZE                ( ( unsigned short ) 128 )
+configTOTAL_HEAP_SIZE                   ( ( size_t ) ( 10 * 1024 ) )
 configUSE_PREEMPTION                    1
 configUSE_PORT_OPTIMISED_TASK_SELECTION 0
-configCHECK_FOR_STACK_OVERFLOW          <?>
-configUSE_MALLOC_FAILED_HOOK            <?>
+configCHECK_FOR_STACK_OVERFLOW          2
+configUSE_MALLOC_FAILED_HOOK            0
 
-configPRIO_BITS                         <?>
-configLIBRARY_LOWEST_INTERRUPT_PRIORITY         <?>
-configLIBRARY_MAX_SYSCALL_INTERRUPT_PRIORITY    <?>
+configPRIO_BITS                         4
+configLIBRARY_LOWEST_INTERRUPT_PRIORITY         15
+configLIBRARY_MAX_SYSCALL_INTERRUPT_PRIORITY    5
 
 # Ba handler kernel chiếm — map tên port sang tên trong vector table:
-# vPortSVCHandler        -> <?>
-# xPortPendSVHandler     -> <?>
-# xPortSysTickHandler    -> <?>
+# vPortSVCHandler        -> SVC_Handler
+# xPortPendSVHandler     -> PendSV_Handler
+# xPortSysTickHandler    -> SysTick_Handler

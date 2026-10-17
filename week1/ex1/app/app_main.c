@@ -14,6 +14,8 @@
 
 /* TODO 1: build the GPIO port/pin pair for PA<BLINK_GPIO_PIN>.
  *         Hint: GPIO_PIN_0 .. GPIO_PIN_15 are bit masks, not indices. */
+#define BLINK_PORT    GPIOA
+#define BLINK_PIN     GPIO_PIN_1
 
 /* TODO 2: implement the bring-up task.
  *         - toggle the pin
@@ -22,9 +24,12 @@
 static void bringup_task(void *argument)
 {
     (void)argument;
-
+    volatile UBaseType_t my_stack_mark = 0;
     for (;;) {
         /* TODO */
+        HAL_GPIO_TogglePin(BLINK_PORT, BLINK_PIN);//toggle the pin
+        my_stack_mark = uxTaskGetStackHighWaterMark(NULL);
+        vTaskDelay(pdMS_TO_TICKS(BLINK_PERIOD_MS));//block for BLINK_PERIOD_MS using vTaskDelay()
     }
 }
 
@@ -32,15 +37,35 @@ void app_main(void)
 {
     /* TODO 3: create bringup_task with stack BRINGUP_STACK_WORDS and a priority
      *         you can justify. Check the return value — do not ignore it. */
-
+    //tạo task với stack 96 words, kiểm tra giá trị trả về */
+    BaseType_t return_val;
+    return_val = xTaskCreate(
+        bringup_task, //con trỏ hàm trỏ tới hàm thực thi
+        "bringup", //tên task dạng chuỗi ký tự (dùng cho debug)
+        BRINGUP_STACK_WORDS,  //dung lượng stack cấp cho task (tính bằng word)
+        NULL, //tham số truyền vào task, ko dùng thì truyền NULL
+        tskIDLE_PRIORITY + 1, //độ ưu tiên của task (0+1=1)
+        NULL //con trỏ trả về handle quản lý task (dùng để xoá hay tạm dừng task từ bên ngoài)
+    );
+    //kiểm tra assert theo yêu cầu chấm điểm
+    configASSERT(return_val == pdPASS);
     /* TODO 4: start the scheduler. */
-
+    vTaskStartScheduler();
     /* Reaching this point means the scheduler returned: out of heap, or the
      * handlers in TODO 5 were never mapped. Trap here so it is visible. */
     for (;;) {
     }
 }
 
+void vApplicationStackOverflowHook(TaskHandle_t xTask, char *pcTaskName)
+{
+    (void)xTask; //ko dùng 
+    (void)pcTaskName; // ko dùng
+
+    taskDISABLE_INTERRUPTS();
+    for (;;) {
+    }
+}
 /* TODO 5: nothing to write here, but write the answer in REPORT.md:
  *         which three exception handlers does the ARM_CM3 port take over,
  *         where are they currently defined in template/, and what did the
