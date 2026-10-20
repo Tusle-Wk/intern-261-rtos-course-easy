@@ -14,26 +14,22 @@
 /* TODO: one helper that takes a port/pin and a work time, then three thin
  *       wrappers. Do not copy-paste the body three times. */
 
-void task_a(void *argument)
-{
-    (void)argument;
+
+// hàm dùng chung cho 3 task
+static void general_task(GPIO_TypeDef *port, uint16_t pin_num, uint32_t work_us){
+    uint16_t hal_pin = (1 << pin_num);
     for (;;) {
-        /* TODO */
+        /* Kéo chân GPIO lên Mức HIGH */
+        HAL_GPIO_WritePin(port, hal_pin, GPIO_PIN_SET);
+        
+        /* doi cpu (không block) */
+        dwt_busy_wait_us(work_us);
+        
+        /* Hạ chân GPIO xuống Mức LOW */
+        HAL_GPIO_WritePin(port, hal_pin, GPIO_PIN_RESET);
     }
 }
 
-void task_b(void *argument)
-{
-    (void)argument;
-    for (;;) {
-        /* TODO */
-    }
-}
-
-void task_c(void *argument)
-{
-    (void)argument;
-    for (;;) {
-        /* TODO */
-    }
-}
+void task_a(void *argument) { general_task(GPIOA, TASK_A_PIN, TASK_A_WORK_US); }
+void task_b(void *argument) { general_task(GPIOA, TASK_B_PIN, TASK_B_WORK_US); }
+void task_c(void *argument) { general_task(GPIOA, TASK_C_PIN, TASK_C_WORK_US); }
