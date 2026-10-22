@@ -1,0 +1,4 @@
+ketqua1: DELAY_MODE = 0, configTICK_RATE_HZ = 1000
+ketqua2: DELAY_MODE = 1, configTICK_RATE_HZ = 1000
+ketqua3: DELAY_MODE = 0, configTICK_RATE_HZ = 100
+ketqua4: DELAY_MODE = 1, configTICK_RATE_HZ = 100

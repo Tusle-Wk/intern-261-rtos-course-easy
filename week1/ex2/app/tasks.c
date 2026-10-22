@@ -19,14 +19,17 @@
 static void general_task(GPIO_TypeDef *port, uint16_t pin_num, uint32_t work_us){
     uint16_t hal_pin = (1 << pin_num);
     for (;;) {
-        /* Kéo chân GPIO lên Mức HIGH */
+        //kéo chân GPIO lên Mức HIGH
         HAL_GPIO_WritePin(port, hal_pin, GPIO_PIN_SET);
         
-        /* doi cpu (không block) */
+        //doi cpu (không block) 
         dwt_busy_wait_us(work_us);
         
-        /* Hạ chân GPIO xuống Mức LOW */
+        //hạ chân GPIO xuống Mức LOW
         HAL_GPIO_WritePin(port, hal_pin, GPIO_PIN_RESET);
+        
+        //fix starvation
+        vTaskDelay(1);
     }
 }
 

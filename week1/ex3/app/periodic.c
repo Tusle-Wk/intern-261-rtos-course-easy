@@ -10,61 +10,82 @@
 #include "params.h"
 
 /* 0 = vTaskDelay, 1 = xTaskDelayUntil */
-void dwt_busy_wait_us(uint32_t microseconds); //dung lai ham cua ex2
 #ifndef DELAY_MODE
-#define DELAY_MODE 0
+#define DELAY_MODE 1
 #endif
+
+/* Chu ky phai >= 1 tick, neu khong vTaskDelay(0) chi yield, khong con la tuan hoan. */
+_Static_assert(pdMS_TO_TICKS(PERIOD_MS) > 0,
+               "PERIOD_MS nho hon 1 tick o configTICK_RATE_HZ hien tai");
 
 /* Fixed seed: the variable load must be reproducible across all four runs,
  * otherwise the four configurations are not comparable. */
 static uint32_t s_rand_state = 0x12345678u;
 
-//biến đếm số chu kỳ và số lần trễ deadline
-volatile uint32_t g_cycle_count = 0;
-volatile uint32_t g_missed_deadlines = 0; //for debug, so lan tre han
+/* Bien quan sat bang debugger / SWV (phuc vu muc 4 cua REPORT.md). */
+volatile uint32_t g_cycle_count     = 0;  /* so chu ky da chay */
+volatile uint32_t g_missed_deadline = 0;  /* so lan xTaskDelayUntil tra ve pdFALSE */
 
 static uint32_t next_work_us(void)
 {
-    /* TODO 1: xorshift32 on s_rand_state, mapped into [0, WORK_JITTER_US].
-     *         Must give the identical sequence on every run. */
-    //thuat toan xorshift32
+    /* xorshift32 — state khac 0 nen khong bao gio ket o 0. */
     uint32_t x = s_rand_state;
     x ^= x << 13;
     x ^= x >> 17;
     x ^= x << 5;
     s_rand_state = x;
-    return x % (WORK_JITTER_US + 1u);//ep trong khoang co dinh
+
+    /* Map vao [0, WORK_JITTER_US] (bao gom ca 2 dau). */
+    return x % (WORK_JITTER_US + 1u);
 }
 
+/* Busy-wait bang DWT->CYCCNT (dwt_init() da bat CYCCNT). Xu ly tran 32-bit
+ * bang phep tru unsigned. Neu ex2 cua ban da co ham tuong duong thi co the
+ * thay bang ham do. */
+static void burn_us(uint32_t us)
+{
+    const uint32_t cycles_per_us = SystemCoreClock / 1000000u;
+    const uint32_t start  = DWT->CYCCNT;
+    const uint32_t target = us * cycles_per_us;
+
+    while ((uint32_t)(DWT->CYCCNT - start) < target) {
+        /* spin */
+    }
+}
 
 void periodic_task(void *argument)
 {
-    const uint16_t periodic_pin_mask = (uint16_t)(1u << PERIODIC_PIN);
-    const TickType_t xPeriodTicks = pdMS_TO_TICKS(PERIOD_MS);
+    (void)argument;
+
+    const TickType_t period_ticks = pdMS_TO_TICKS(PERIOD_MS);  /* khong hard-code so tick */
+
 #if DELAY_MODE == 1
-    /* TODO 2: declare and initialise the previous-wake-time variable.
-     *         Initialising it in the wrong place is the classic mistake here —
-     *         if your drift is not ~0, look at this first and say so in REPORT.md. */
-    TickType_t xLastWakeTime = xTaskGetTickCount();
+    /* Khoi tao NGAY TRUOC vong lap, ben trong task (khong phai global, khong
+     * phai trong vong lap). Chi xTaskDelayUntil moi duoc cap nhat bien nay. */
+    TickType_t last_wake_time = xTaskGetTickCount();
 #endif
 
     for (;;) {
-        /* TODO 3: toggle PA<PERIODIC_PIN>, then burn next_work_us() of CPU
-         *         with the DWT busy-wait from ex2. */
-        HAL_GPIO_TogglePin(GPIOA, periodic_pin_mask); //toggle PA6
-        dwt_busy_wait_us(next_work_us());// fake load
+        /* Toggle dau chu ky (truoc tai gia) de canh logic analyzer phan anh
+         * thoi diem task thuc day, khong bi cong them do tai. */
+        GPIOA->ODR ^= (1u << PERIODIC_PIN);
+
+        burn_us(next_work_us());
+
+        g_cycle_count++;
+
 #if DELAY_MODE == 0
-        /* TODO 4a: vTaskDelay(...) — what exactly do you pass, and relative to what? */
-        vTaskDelay(xPeriodTicks); //neu la vtaskdelay
+        /* Tuong doi: tinh tu LUC GOI (tuc sau khi tai chay xong) -> chu ky thuc
+         * = period + thoi gian tai + lam tron tick => drift cong don. */
+        vTaskDelay(period_ticks);
 #else
-        /* TODO 4b: xTaskDelayUntil(...) — note it returns a value. What does it mean? */
-        BaseType_t xWasDelayed = xTaskDelayUntil(&xLastWakeTime, xPeriodTicks);
-        if (xWasDelayed == pdFALSE) { //truong hop load chay qua lau, vuot qua thoi gian xPeriod          
-            if (g_cycle_count < SAMPLE_COUNT)
-                g_missed_deadlines++;
-            
+        /* Tuyet doi: thuc day tai last_wake_time + period_ticks, bat ke tai chay
+         * bao lau. Tra ve pdTRUE neu task thuc su bi block (dung han),
+         * pdFALSE neu deadline da qua truoc khi goi (tre -> khong block). */
+        BaseType_t was_delayed = xTaskDelayUntil(&last_wake_time, period_ticks);
+        if (was_delayed == pdFALSE) {
+            g_missed_deadline++;
         }
 #endif
-        g_cycle_count++;
     }
 }
