@@ -20,7 +20,7 @@
 Hàm `vTaskDelay(ticks)` chỉ trì hoãn tác vụ một khoảng thời gian tương đối tính từ **thời điểm hàm được gọi**. Do đó, chu kỳ thực tế giữa hai lần thực thi liên tiếp bằng:
 T_actual = T_delay + T_work + T_interrupt
 
-Thời gian thực thi của tác vụ giả lập (T_work) bị cộng dồn liên tục qua từng chu kỳ, gây ra hiện tượng tích lũy trôi thời gian (cumulative drift).
+Thời gian thực thi của tác vụ giả lập (T_work) bị cộng dồn liên tục qua từng chu kỳ, gây ra hiện tượng tích lũy trôi thời gian.
 
 Công thức drift lý thuyết theo `PERIOD_MS` và `WORK_JITTER_US`:
 Drift ly thuyet = SAMPLE_COUNT x (WORK_JITTER_US / 2) = 800 x (1.4 ms / 2) = +560.00 ms
