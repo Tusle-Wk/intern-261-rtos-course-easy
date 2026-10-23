@@ -1,0 +1,31 @@
+TRIGGER_OVERFLOW = 0 và DYN_TASK_STACK_WORDS = 72 (có extra task)
+
+--- RAM REPORT ---
+Free Heap 7096 bytes (Min ever 7096 bytes)
+Target = 3072 bytes OK
+HWM DynTask   43 words (172 bytes)
+HWM StatTask  103 words (412 bytes)
+HWM RamReport 78 words (312 bytes)
+HWM IdleTask  106 words (424 bytes)
+HWM TimerTask 211 words (844 bytes)
+HWM ExtraTask 103 words (412 bytes)
+
+--- RAM REPORT ---
+Free Heap 7096 bytes (Min ever 7096 bytes)
+Target = 3072 bytes OK
+HWM DynTask   43 words (172 bytes)
+HWM StatTask  103 words (412 bytes)
+HWM RamReport 78 words (312 bytes)
+HWM IdleTask  106 words (424 bytes)
+HWM TimerTask 211 words (844 bytes)
+HWM ExtraTask 103 words (412 bytes)
+
+--- RAM REPORT ---
+Free Heap 7096 bytes (Min ever 7096 bytes)
+Target = 3072 bytes OK
+HWM DynTask   43 words (172 bytes)
+HWM StatTask  103 words (412 bytes)
+HWM RamReport 78 words (312 bytes)
+HWM IdleTask  106 words (424 bytes)
+HWM TimerTask 211 words (844 bytes)
+HWM ExtraTask 103 words (412 bytes)
