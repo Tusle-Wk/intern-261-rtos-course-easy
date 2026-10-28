@@ -1,0 +1,12 @@
+=== Lan T2: do day queue (2000 mau, 1 ms/mau) ===
+queue_raw     : max = 0 | so diem > 0 = 0
+queue_filtered: max = 6 | so diem > 0 = 1996
+khoang cach giua cac diem filt > 0 (ms, so lan): [(1, 1994), (5, 1)]
+queue_filtered bat dau > 0 tai 0 ms
+queue_filtered day (>=6) lan dau tai 35 ms (sau 35 ms ke tu luc bat dau tang)
+Da luu queue_fill_T2.png
+
+=== Lan T2: seq trong term_T2.txt ===
+so dong hop le = 235 | seq dau = 0 | seq cuoi = 996
+so mau mat (lo trong seq) = 762 | mau mat dau tien = 9
+30 seq dau: [0, 1, 2, 3, 4, 5, 6, 7, 8, 12, 16, 20, 24, 28, 32, 36, 40, 45, 49, 53, 57, 61, 66, 70, 74, 78, 82, 87, 91, 95]

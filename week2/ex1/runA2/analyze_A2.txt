@@ -1,0 +1,12 @@
+=== Lan A2: do day queue (2000 mau, 1 ms/mau) ===
+queue_raw     : max = 0 | so diem > 0 = 0
+queue_filtered: max = 1 | so diem > 0 = 400
+khoang cach giua cac diem filt > 0 (ms, so lan): [(5, 399)]
+queue_filtered bat dau > 0 tai 0 ms
+queue_filtered KHONG bao gio day (>=6)
+Da luu queue_fill_A2.png
+
+=== Lan A2: seq trong term_A2.txt ===
+so dong hop le = 1008 | seq dau = 0 | seq cuoi = 1007
+so mau mat (lo trong seq) = 0 | mau mat dau tien = None
+30 seq dau: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]

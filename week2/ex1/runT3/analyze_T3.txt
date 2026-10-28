@@ -1,0 +1,12 @@
+=== Lan T3: do day queue (2000 mau, 1 ms/mau) ===
+queue_raw     : max = 6 | so diem > 0 = 1950
+queue_filtered: max = 6 | so diem > 0 = 1996
+khoang cach giua cac diem filt > 0 (ms, so lan): [(1, 1994), (5, 1)]
+queue_filtered bat dau > 0 tai 0 ms
+queue_filtered day (>=6) lan dau tai 35 ms (sau 35 ms ke tu luc bat dau tang)
+Da luu queue_fill_T3.png
+
+=== Lan T3: seq trong term_T3.txt ===
+so dong hop le = 225 | seq dau = 0 | seq cuoi = 923
+so mau mat (lo trong seq) = 699 | mau mat dau tien = 18
+30 seq dau: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 21, 25, 29, 33, 37, 41, 45, 49, 53, 57, 62, 66]
