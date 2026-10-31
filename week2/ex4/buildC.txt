@@ -1,0 +1,430 @@
+
+[ex4] id=2413858 mode=EG(3) bits=3 period=5ms timeout=50ms clk=72000000Hz
+[ram] sizeof(StaticEventGroup_t)=24 B, heap delta of xEventGroupCreate=32 B, free heap now=7624 B
+[ram] ref: sizeof(StaticSemaphore_t)=72 B, heap delta of binary semaphore=80 B
+[sync] TIMEOUT t=344 ms ret=0x03 missing=0x04 (timeouts=1)
+[sync #50] t=462 ms  period=9000.04 us (avg 7583.33 us)
+  EG-bit     n=50  min=1074  avg=1074  max=1074 cyc | avg=14.91 us
+[sync] TIMEOUT t=698 ms ret=0x03 missing=0x04 (timeouts=2)
+[sync #100] t=909 ms  period=8003.12 us (avg 7556.72 us)
+  EG-bit     n=100  min=1074  avg=1074  max=1074 cyc | avg=14.91 us
+[sync] TIMEOUT t=1050 ms ret=0x03 missing=0x04 (timeouts=3)
+[sync #150] t=1340 ms  period=4999.91 us (avg 7452.04 us)
+  EG-bit     n=150  min=1074  avg=1074  max=1074 cyc | avg=14.91 us
+[sync] TIMEOUT t=1396 ms ret=0x03 missing=0x04 (timeouts=4)
+[sync] TIMEOUT t=1749 ms ret=0x03 missing=0x04 (timeouts=5)
+[sync #200] t=1855 ms  period=7000.00 us (avg 7402.04 us)
+  EG-bit     n=200  min=1074  avg=1074  max=1074 cyc | avg=14.91 us
+[sync] TIMEOUT t=2119 ms ret=0x03 missing=0x04 (timeouts=6)
+[sync #250] t=2296 ms  period=7026.09 us (avg 7395.15 us)
+  EG-bit     n=250  min=1074  avg=1074  max=1074 cyc | avg=14.91 us
+[sync] TIMEOUT t=2470 ms ret=0x03 missing=0x04 (timeouts=7)
+[sync #300] t=2754 ms  period=9000.05 us (avg 7452.04 us)
+  EG-bit     n=300  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=2835 ms ret=0x03 missing=0x04 (timeouts=8)
+[sync] TIMEOUT t=3169 ms ret=0x03 missing=0x04 (timeouts=9)
+[sync #350] t=3262 ms  period=7996.84 us (avg 7455.87 us)
+  EG-bit     n=350  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=3503 ms ret=0x03 missing=0x04 (timeouts=10)
+[sync #400] t=3715 ms  period=9000.04 us (avg 7475.56 us)
+  EG-bit     n=400  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=3872 ms ret=0x03 missing=0x04 (timeouts=11)
+[sync #450] t=4164 ms  period=9000.04 us (avg 7481.72 us)
+  EG-bit     n=450  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=4227 ms ret=0x03 missing=0x04 (timeouts=12)
+[sync] TIMEOUT t=4587 ms ret=0x03 missing=0x04 (timeouts=13)
+[sync #500] t=4674 ms  period=9003.00 us (avg 7479.45 us)
+  EG-bit     n=500  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=4928 ms ret=0x03 missing=0x04 (timeouts=14)
+[sync #550] t=5138 ms  period=8000.02 us (avg 7512.12 us)
+  EG-bit     n=550  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=5286 ms ret=0x03 missing=0x04 (timeouts=15)
+[sync #600] t=5583 ms  period=7970.93 us (avg 7508.52 us)
+  EG-bit     n=600  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=5639 ms ret=0x03 missing=0x04 (timeouts=16)
+[sync] TIMEOUT t=5989 ms ret=0x03 missing=0x04 (timeouts=17)
+[sync #650] t=6083 ms  period=5999.98 us (avg 7495.22 us)
+  EG-bit     n=650  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=6344 ms ret=0x03 missing=0x04 (timeouts=18)
+[sync #700] t=6541 ms  period=8000.00 us (avg 7510.98 us)
+  EG-bit     n=700  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=6713 ms ret=0x03 missing=0x04 (timeouts=19)
+[sync #750] t=6998 ms  period=7999.98 us (avg 7524.62 us)
+  EG-bit     n=750  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=7070 ms ret=0x03 missing=0x04 (timeouts=20)
+[sync] TIMEOUT t=7434 ms ret=0x03 missing=0x04 (timeouts=21)
+[sync #800] t=7517 ms  period=5999.93 us (avg 7527.00 us)
+  EG-bit     n=800  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=7800 ms ret=0x03 missing=0x04 (timeouts=22)
+[sync #850] t=7951 ms  period=8973.61 us (avg 7509.11 us)
+  EG-bit     n=850  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=8149 ms ret=0x03 missing=0x04 (timeouts=23)
+[sync #900] t=8396 ms  period=9000.08 us (avg 7505.73 us)
+  EG-bit     n=900  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=8505 ms ret=0x03 missing=0x04 (timeouts=24)
+[sync] TIMEOUT t=8850 ms ret=0x03 missing=0x04 (timeouts=25)
+[sync #950] t=8896 ms  period=9003.16 us (avg 7494.62 us)
+  EG-bit     n=950  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=9214 ms ret=0x03 missing=0x04 (timeouts=26)
+[sync #1000] t=9344 ms  period=8999.98 us (avg 7495.40 us)
+  EG-bit     n=1000  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=9565 ms ret=0x03 missing=0x04 (timeouts=27)
+[sync #1050] t=9791 ms  period=8000.00 us (avg 7495.15 us)
+  EG-bit     n=1050  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=9932 ms ret=0x03 missing=0x04 (timeouts=28)
+[sync #1100] t=10238 ms  period=5022.93 us (avg 7494.93 us)
+  EG-bit     n=1100  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=10303 ms ret=0x03 missing=0x04 (timeouts=29)
+[sync] TIMEOUT t=10657 ms ret=0x03 missing=0x04 (timeouts=30)
+[sync #1150] t=10757 ms  period=8973.94 us (avg 7495.12 us)
+  EG-bit     n=1150  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=11018 ms ret=0x03 missing=0x04 (timeouts=31)
+[sync #1200] t=11195 ms  period=5999.94 us (avg 7491.48 us)
+  EG-bit     n=1200  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=11374 ms ret=0x03 missing=0x04 (timeouts=32)
+[sync #1250] t=11632 ms  period=7000.00 us (avg 7483.19 us)
+  EG-bit     n=1250  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=11732 ms ret=0x03 missing=0x04 (timeouts=33)
+[sync] TIMEOUT t=12081 ms ret=0x03 missing=0x04 (timeouts=34)
+[sync #1300] t=12142 ms  period=9003.23 us (avg 7482.25 us)
+  EG-bit     n=1300  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=12438 ms ret=0x03 missing=0x04 (timeouts=35)
+[sync #1350] t=12586 ms  period=6999.95 us (avg 7480.25 us)
+  EG-bit     n=1350  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=12798 ms ret=0x03 missing=0x04 (timeouts=36)
+[sync #1400] t=13025 ms  period=7000.00 us (avg 7474.72 us)
+  EG-bit     n=1400  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=13149 ms ret=0x03 missing=0x04 (timeouts=37)
+[sync] TIMEOUT t=13514 ms ret=0x03 missing=0x04 (timeouts=38)
+[sync #1450] t=13544 ms  period=5026.62 us (avg 7480.55 us)
+  EG-bit     n=1450  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=13875 ms ret=0x03 missing=0x04 (timeouts=39)
+[sync #1500] t=13987 ms  period=5999.98 us (avg 7480.18 us)
+  EG-bit     n=1500  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=14234 ms ret=0x03 missing=0x04 (timeouts=40)
+[sync #1550] t=14430 ms  period=5999.86 us (avg 7477.88 us)
+  EG-bit     n=1550  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=14590 ms ret=0x03 missing=0x04 (timeouts=41)
+[sync #1600] t=14862 ms  period=6973.93 us (avg 7468.61 us)
+  EG-bit     n=1600  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=14943 ms ret=0x03 missing=0x04 (timeouts=42)
+[sync] TIMEOUT t=15291 ms ret=0x03 missing=0x04 (timeouts=43)
+[sync #1650] t=15361 ms  period=8000.00 us (avg 7460.22 us)
+  EG-bit     n=1650  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=15644 ms ret=0x03 missing=0x04 (timeouts=44)
+[sync #1700] t=15800 ms  period=9000.08 us (avg 7456.27 us)
+  EG-bit     n=1700  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=15990 ms ret=0x03 missing=0x04 (timeouts=45)
+[sync #1750] t=16236 ms  period=7973.95 us (avg 7450.80 us)
+  EG-bit     n=1750  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=16334 ms ret=0x03 missing=0x04 (timeouts=46)
+[sync] TIMEOUT t=16690 ms ret=0x03 missing=0x04 (timeouts=47)
+[sync #1800] t=16754 ms  period=8000.00 us (avg 7454.43 us)
+  EG-bit     n=1800  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=17041 ms ret=0x03 missing=0x04 (timeouts=48)
+[sync #1850] t=17198 ms  period=6973.87 us (avg 7453.73 us)
+  EG-bit     n=1850  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=17403 ms ret=0x03 missing=0x04 (timeouts=49)
+[sync #1900] t=17646 ms  period=8996.84 us (avg 7456.31 us)
+  EG-bit     n=1900  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=17764 ms ret=0x03 missing=0x04 (timeouts=50)
+[sync] TIMEOUT t=18122 ms ret=0x03 missing=0x04 (timeouts=51)
+[sync #1950] t=18150 ms  period=7973.95 us (avg 7452.69 us)
+  EG-bit     n=1950  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=18478 ms ret=0x03 missing=0x04 (timeouts=52)
+[sync #2000] t=18590 ms  period=7996.87 us (avg 7450.04 us)
+  EG-bit     n=2000  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=18826 ms ret=0x03 missing=0x04 (timeouts=53)
+[sync #2050] t=19023 ms  period=7999.93 us (avg 7445.00 us)
+  EG-bit     n=2050  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=19166 ms ret=0x03 missing=0x04 (timeouts=54)
+[sync] TIMEOUT t=19503 ms ret=0x03 missing=0x04 (timeouts=55)
+[sync #2100] t=19549 ms  period=8973.91 us (avg 7450.20 us)
+  EG-bit     n=2100  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=19861 ms ret=0x03 missing=0x04 (timeouts=56)
+[sync #2150] t=19983 ms  period=9003.15 us (avg 7446.83 us)
+  EG-bit     n=2150  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=20230 ms ret=0x03 missing=0x04 (timeouts=57)
+[sync #2200] t=20427 ms  period=8999.97 us (avg 7446.41 us)
+  EG-bit     n=2200  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=20597 ms ret=0x03 missing=0x04 (timeouts=58)
+[sync #2250] t=20869 ms  period=4996.86 us (avg 7446.01 us)
+  EG-bit     n=2250  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=20951 ms ret=0x03 missing=0x04 (timeouts=59)
+[sync] TIMEOUT t=21313 ms ret=0x03 missing=0x04 (timeouts=60)
+[sync #2300] t=21395 ms  period=5026.12 us (avg 7449.86 us)
+  EG-bit     n=2300  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=21667 ms ret=0x03 missing=0x04 (timeouts=61)
+[sync #2350] t=21836 ms  period=5996.84 us (avg 7448.95 us)
+  EG-bit     n=2350  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=22022 ms ret=0x03 missing=0x04 (timeouts=62)
+[sync #2400] t=22280 ms  period=9000.00 us (avg 7448.52 us)
+  EG-bit     n=2400  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=22376 ms ret=0x03 missing=0x04 (timeouts=63)
+[sync] TIMEOUT t=22713 ms ret=0x03 missing=0x04 (timeouts=64)
+[sync #2450] t=22799 ms  period=9003.15 us (avg 7451.66 us)
+  EG-bit     n=2450  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=23076 ms ret=0x03 missing=0x04 (timeouts=65)
+[sync #2500] t=23244 ms  period=4999.91 us (avg 7453.66 us)
+  EG-bit     n=2500  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=23425 ms ret=0x03 missing=0x04 (timeouts=66)
+[sync #2550] t=23692 ms  period=8000.04 us (avg 7455.58 us)
+  EG-bit     n=2550  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=23780 ms ret=0x03 missing=0x04 (timeouts=67)
+[sync] TIMEOUT t=24134 ms ret=0x03 missing=0x04 (timeouts=68)
+[sync #2600] t=24208 ms  period=8003.12 us (avg 7454.84 us)
+  EG-bit     n=2600  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=24490 ms ret=0x03 missing=0x04 (timeouts=69)
+[sync #2650] t=24657 ms  period=5999.98 us (avg 7457.44 us)
+  EG-bit     n=2650  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=24839 ms ret=0x03 missing=0x04 (timeouts=70)
+[sync #2700] t=25093 ms  period=7999.98 us (avg 7456.13 us)
+  EG-bit     n=2700  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=25186 ms ret=0x03 missing=0x04 (timeouts=71)
+[sync] TIMEOUT t=25547 ms ret=0x03 missing=0x04 (timeouts=72)
+[sync #2750] t=25608 ms  period=8000.05 us (avg 7455.06 us)
+  EG-bit     n=2750  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=25902 ms ret=0x03 missing=0x04 (timeouts=73)
+[sync #2800] t=26051 ms  period=5996.87 us (avg 7454.95 us)
+  EG-bit     n=2800  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=26267 ms ret=0x03 missing=0x04 (timeouts=74)
+[sync #2850] t=26495 ms  period=7000.00 us (avg 7454.50 us)
+  EG-bit     n=2850  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=26624 ms ret=0x03 missing=0x04 (timeouts=75)
+[sync] TIMEOUT t=26976 ms ret=0x03 missing=0x04 (timeouts=76)
+[sync #2900] t=27006 ms  period=8000.00 us (avg 7453.13 us)
+  EG-bit     n=2900  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=27351 ms ret=0x03 missing=0x04 (timeouts=77)
+[sync #2950] t=27464 ms  period=8999.93 us (avg 7457.59 us)
+  EG-bit     n=2950  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=27708 ms ret=0x03 missing=0x04 (timeouts=78)
+[sync #3000] t=27896 ms  period=7026.06 us (avg 7453.02 us)
+  EG-bit     n=3000  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=28055 ms ret=0x03 missing=0x04 (timeouts=79)
+[sync #3050] t=28321 ms  period=8973.66 us (avg 7447.23 us)
+  EG-bit     n=3050  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=28408 ms ret=0x03 missing=0x04 (timeouts=80)
+[sync] TIMEOUT t=28758 ms ret=0x03 missing=0x04 (timeouts=81)
+[sync #3100] t=28827 ms  period=6973.55 us (avg 7446.08 us)
+  EG-bit     n=3100  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=29118 ms ret=0x03 missing=0x04 (timeouts=82)
+[sync #3150] t=29273 ms  period=8000.00 us (avg 7446.45 us)
+  EG-bit     n=3150  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=29475 ms ret=0x03 missing=0x04 (timeouts=83)
+[sync #3200] t=29718 ms  period=9000.00 us (avg 7447.77 us)
+  EG-bit     n=3200  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=29830 ms ret=0x03 missing=0x04 (timeouts=84)
+[sync] TIMEOUT t=30191 ms ret=0x03 missing=0x04 (timeouts=85)
+[sync #3250] t=30234 ms  period=7022.90 us (avg 7451.43 us)
+  EG-bit     n=3250  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=30542 ms ret=0x03 missing=0x04 (timeouts=86)
+[sync #3300] t=30667 ms  period=5026.06 us (avg 7450.15 us)
+  EG-bit     n=3300  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=30901 ms ret=0x03 missing=0x04 (timeouts=87)
+[sync #3350] t=31112 ms  period=8000.00 us (avg 7452.26 us)
+  EG-bit     n=3350  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=31248 ms ret=0x03 missing=0x04 (timeouts=88)
+[sync #3400] t=31550 ms  period=6999.91 us (avg 7450.11 us)
+  EG-bit     n=3400  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=31607 ms ret=0x03 missing=0x04 (timeouts=89)
+[sync] TIMEOUT t=31950 ms ret=0x03 missing=0x04 (timeouts=90)
+[sync #3450] t=32056 ms  period=6000.00 us (avg 7448.15 us)
+  EG-bit     n=3450  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=32298 ms ret=0x03 missing=0x04 (timeouts=91)
+[sync #3500] t=32506 ms  period=8973.61 us (avg 7449.62 us)
+  EG-bit     n=3500  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=32671 ms ret=0x03 missing=0x04 (timeouts=92)
+[sync #3550] t=32948 ms  period=5000.00 us (avg 7450.19 us)
+  EG-bit     n=3550  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=33011 ms ret=0x03 missing=0x04 (timeouts=93)
+[sync] TIMEOUT t=33369 ms ret=0x03 missing=0x04 (timeouts=94)
+[sync #3600] t=33445 ms  period=7022.91 us (avg 7448.02 us)
+  EG-bit     n=3600  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=33723 ms ret=0x03 missing=0x04 (timeouts=95)
+[sync #3650] t=33888 ms  period=5022.93 us (avg 7448.04 us)
+  EG-bit     n=3650  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=34068 ms ret=0x03 missing=0x04 (timeouts=96)
+[sync #3700] t=34331 ms  period=7000.00 us (avg 7448.59 us)
+  EG-bit     n=3700  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=34426 ms ret=0x03 missing=0x04 (timeouts=97)
+[sync] TIMEOUT t=34781 ms ret=0x03 missing=0x04 (timeouts=98)
+[sync #3750] t=34839 ms  period=9000.04 us (avg 7447.90 us)
+  EG-bit     n=3750  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=35137 ms ret=0x03 missing=0x04 (timeouts=99)
+[sync #3800] t=35285 ms  period=8999.93 us (avg 7448.45 us)
+  EG-bit     n=3800  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=35500 ms ret=0x03 missing=0x04 (timeouts=100)
+[sync #3850] t=35727 ms  period=8999.95 us (avg 7447.66 us)
+  EG-bit     n=3850  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=35850 ms ret=0x03 missing=0x04 (timeouts=101)
+[sync] TIMEOUT t=36203 ms ret=0x03 missing=0x04 (timeouts=102)
+[sync #3900] t=36242 ms  period=9000.02 us (avg 7447.54 us)
+  EG-bit     n=3900  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=36572 ms ret=0x03 missing=0x04 (timeouts=103)
+[sync #3950] t=36698 ms  period=7000.01 us (avg 7451.19 us)
+  EG-bit     n=3950  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=36929 ms ret=0x03 missing=0x04 (timeouts=104)
+[sync #4000] t=37128 ms  period=7973.62 us (avg 7447.31 us)
+  EG-bit     n=4000  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=37276 ms ret=0x03 missing=0x04 (timeouts=105)
+[sync #4050] t=37570 ms  period=7973.90 us (avg 7446.58 us)
+  EG-bit     n=4050  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=37627 ms ret=0x03 missing=0x04 (timeouts=106)
+[sync] TIMEOUT t=37969 ms ret=0x03 missing=0x04 (timeouts=107)
+[sync #4100] t=38071 ms  period=5996.88 us (avg 7443.72 us)
+  EG-bit     n=4100  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=38330 ms ret=0x03 missing=0x04 (timeouts=108)
+[sync #4150] t=38509 ms  period=7000.01 us (avg 7442.79 us)
+  EG-bit     n=4150  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=38689 ms ret=0x03 missing=0x04 (timeouts=109)
+[sync #4200] t=38962 ms  period=9000.01 us (avg 7444.81 us)
+  EG-bit     n=4200  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=39058 ms ret=0x03 missing=0x04 (timeouts=110)
+[sync] TIMEOUT t=39416 ms ret=0x03 missing=0x04 (timeouts=111)
+[sync #4250] t=39469 ms  period=8977.06 us (avg 7443.77 us)
+  EG-bit     n=4250  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=39774 ms ret=0x03 missing=0x04 (timeouts=112)
+[sync #4300] t=39914 ms  period=8000.04 us (avg 7443.83 us)
+  EG-bit     n=4300  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=40131 ms ret=0x03 missing=0x04 (timeouts=113)
+[sync #4350] t=40351 ms  period=9000.02 us (avg 7442.25 us)
+  EG-bit     n=4350  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=40485 ms ret=0x03 missing=0x04 (timeouts=114)
+[sync #4400] t=40793 ms  period=8996.84 us (avg 7442.56 us)
+  EG-bit     n=4400  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=40850 ms ret=0x03 missing=0x04 (timeouts=115)
+[sync] TIMEOUT t=41199 ms ret=0x03 missing=0x04 (timeouts=116)
+[sync #4450] t=41297 ms  period=5999.93 us (avg 7441.58 us)
+  EG-bit     n=4450  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=41570 ms ret=0x03 missing=0x04 (timeouts=117)
+[sync #4500] t=41750 ms  period=8003.15 us (avg 7444.86 us)
+  EG-bit     n=4500  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=41923 ms ret=0x03 missing=0x04 (timeouts=118)
+[sync #4550] t=42177 ms  period=7973.62 us (avg 7441.30 us)
+  EG-bit     n=4550  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=42261 ms ret=0x03 missing=0x04 (timeouts=119)
+[sync] TIMEOUT t=42610 ms ret=0x03 missing=0x04 (timeouts=120)
+[sync #4600] t=42687 ms  period=9000.01 us (avg 7440.13 us)
+  EG-bit     n=4600  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=42985 ms ret=0x03 missing=0x04 (timeouts=121)
+[sync #4650] t=43127 ms  period=7026.11 us (avg 7440.02 us)
+  EG-bit     n=4650  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=43331 ms ret=0x03 missing=0x04 (timeouts=122)
+[sync #4700] t=43562 ms  period=8000.00 us (avg 7438.80 us)
+  EG-bit     n=4700  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=43688 ms ret=0x03 missing=0x04 (timeouts=123)
+[sync] TIMEOUT t=44046 ms ret=0x03 missing=0x04 (timeouts=124)
+[sync #4750] t=44076 ms  period=8000.00 us (avg 7438.79 us)
+  EG-bit     n=4750  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=44410 ms ret=0x03 missing=0x04 (timeouts=125)
+[sync #4800] t=44526 ms  period=8999.97 us (avg 7439.97 us)
+  EG-bit     n=4800  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=44772 ms ret=0x03 missing=0x04 (timeouts=126)
+[sync #4850] t=44981 ms  period=9000.02 us (avg 7442.18 us)
+  EG-bit     n=4850  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=45152 ms ret=0x03 missing=0x04 (timeouts=127)
+[sync #4900] t=45440 ms  period=6999.93 us (avg 7445.19 us)
+  EG-bit     n=4900  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=45531 ms ret=0x03 missing=0x04 (timeouts=128)
+[sync] TIMEOUT t=45892 ms ret=0x03 missing=0x04 (timeouts=129)
+[sync #4950] t=45955 ms  period=7000.00 us (avg 7445.12 us)
+  EG-bit     n=4950  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=46258 ms ret=0x03 missing=0x04 (timeouts=130)
+[sync #5000] t=46400 ms  period=8000.00 us (avg 7445.16 us)
+  EG-bit     n=5000  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=46624 ms ret=0x03 missing=0x04 (timeouts=131)
+[sync #5050] t=46849 ms  period=5996.83 us (avg 7447.02 us)
+  EG-bit     n=5050  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=46989 ms ret=0x03 missing=0x04 (timeouts=132)
+[sync #5100] t=47296 ms  period=5026.06 us (avg 7447.86 us)
+  EG-bit     n=5100  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=47353 ms ret=0x03 missing=0x04 (timeouts=133)
+[sync] TIMEOUT t=47707 ms ret=0x03 missing=0x04 (timeouts=134)
+[sync #5150] t=47814 ms  period=7000.01 us (avg 7446.56 us)
+  EG-bit     n=5150  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=48055 ms ret=0x03 missing=0x04 (timeouts=135)
+[sync #5200] t=48255 ms  period=9000.00 us (avg 7446.38 us)
+  EG-bit     n=5200  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=48419 ms ret=0x03 missing=0x04 (timeouts=136)
+[sync #5250] t=48711 ms  period=8973.61 us (avg 7448.56 us)
+  EG-bit     n=5250  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=48786 ms ret=0x03 missing=0x04 (timeouts=137)
+[sync] TIMEOUT t=49139 ms ret=0x03 missing=0x04 (timeouts=138)
+[sync #5300] t=49220 ms  period=7999.98 us (avg 7447.31 us)
+  EG-bit     n=5300  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=49486 ms ret=0x03 missing=0x04 (timeouts=139)
+[sync #5350] t=49653 ms  period=5999.93 us (avg 7445.98 us)
+  EG-bit     n=5350  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=49848 ms ret=0x03 missing=0x04 (timeouts=140)
+[sync #5400] t=50107 ms  period=8000.00 us (avg 7447.73 us)
+  EG-bit     n=5400  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=50202 ms ret=0x03 missing=0x04 (timeouts=141)
+[sync] TIMEOUT t=50557 ms ret=0x03 missing=0x04 (timeouts=142)
+[sync #5450] t=50620 ms  period=9000.02 us (avg 7448.38 us)
+  EG-bit     n=5450  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=50906 ms ret=0x03 missing=0x04 (timeouts=143)
+[sync #5500] t=51059 ms  period=8000.01 us (avg 7447.27 us)
+  EG-bit     n=5500  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=51255 ms ret=0x03 missing=0x04 (timeouts=144)
+[sync #5550] t=51496 ms  period=9000.01 us (avg 7446.73 us)
+  EG-bit     n=5550  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=51614 ms ret=0x03 missing=0x04 (timeouts=145)
+[sync] TIMEOUT t=51978 ms ret=0x03 missing=0x04 (timeouts=146)
+[sync #5600] t=52020 ms  period=7973.91 us (avg 7449.04 us)
+  EG-bit     n=5600  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=52316 ms ret=0x03 missing=0x04 (timeouts=147)
+[sync #5650] t=52454 ms  period=8999.97 us (avg 7447.40 us)
+  EG-bit     n=5650  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=52673 ms ret=0x03 missing=0x04 (timeouts=148)
+[sync #5700] t=52901 ms  period=7000.02 us (avg 7447.95 us)
+  EG-bit     n=5700  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=53042 ms ret=0x03 missing=0x04 (timeouts=149)
+[sync] TIMEOUT t=53397 ms ret=0x03 missing=0x04 (timeouts=150)
+[sync #5750] t=53434 ms  period=6996.84 us (avg 7450.73 us)
+  EG-bit     n=5750  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=53742 ms ret=0x03 missing=0x04 (timeouts=151)
+[sync #5800] t=53874 ms  period=6000.01 us (avg 7450.36 us)
+  EG-bit     n=5800  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=54097 ms ret=0x03 missing=0x04 (timeouts=152)
+[sync #5850] t=54296 ms  period=6999.98 us (avg 7447.37 us)
+  EG-bit     n=5850  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=54439 ms ret=0x03 missing=0x04 (timeouts=153)
+[sync #5900] t=54730 ms  period=7999.97 us (avg 7445.47 us)
+  EG-bit     n=5900  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=54801 ms ret=0x03 missing=0x04 (timeouts=154)
+[sync] TIMEOUT t=55165 ms ret=0x03 missing=0x04 (timeouts=155)
+[sync #5950] t=55257 ms  period=8947.76 us (avg 7447.47 us)
+  EG-bit     n=5950  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=55519 ms ret=0x03 missing=0x04 (timeouts=156)
+[sync #6000] t=55715 ms  period=4996.80 us (avg 7449.70 us)
+  EG-bit     n=6000  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=55890 ms ret=0x03 missing=0x04 (timeouts=157)
+[sync #6050] t=56165 ms  period=8996.76 us (avg 7450.88 us)
+  EG-bit     n=6050  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=56249 ms ret=0x03 missing=0x04 (timeouts=158)
+[sync] TIMEOUT t=56587 ms ret=0x03 missing=0x04 (timeouts=159)
+[sync #6100] t=56671 ms  period=9000.00 us (avg 7449.94 us)
+  EG-bit     n=6100  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=56940 ms ret=0x03 missing=0x04 (timeouts=160)
+[sync #6150] t=57120 ms  period=4996.88 us (avg 7450.61 us)
+  EG-bit     n=6150  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=57308 ms ret=0x03 missing=0x04 (timeouts=161)
+[sync #6200] t=57554 ms  period=4999.91 us (avg 7449.59 us)
+  EG-bit     n=6200  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=57649 ms ret=0x03 missing=0x04 (timeouts=162)
+[sync] TIMEOUT t=58010 ms ret=0x03 missing=0x04 (timeouts=163)
+[sync #6250] t=58072 ms  period=8999.94 us (avg 7450.98 us)
+  EG-bit     n=6250  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=58354 ms ret=0x03 missing=0x04 (timeouts=164)
+[sync #6300] t=58525 ms  period=6000.02 us (avg 7452.44 us)
+  EG-bit     n=6300  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=58711 ms ret=0x03 missing=0x04 (timeouts=165)
+[sync #6350] t=58963 ms  period=5999.73 us (avg 7451.29 us)
+  EG-bit     n=6350  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=59081 ms ret=0x03 missing=0x04 (timeouts=166)
+[sync] TIMEOUT t=59442 ms ret=0x03 missing=0x04 (timeouts=167)
+[sync #6400] t=59481 ms  period=9000.00 us (avg 7451.98 us)
+  EG-bit     n=6400  min=1068  avg=1073  max=1074 cyc | avg=14.90 us
+[sync] TIMEOUT t=59823 ms ret=0x03 missing=0x04 (timeouts=168)
+[sync #6450] t=59933 ms  period=8003.15 us (avg 7453.06 us)
+  EG-bit     n=6450  min=1068  avg=1073  max=1074 cyc | avg=14.90 us

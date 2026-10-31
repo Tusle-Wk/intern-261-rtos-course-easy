@@ -1,0 +1,324 @@
+
+[ex4] id=2413858 mode=EG(3) bits=3 period=5ms timeout=50ms clk=72000000Hz
+[ram] sizeof(StaticEventGroup_t)=24 B, heap delta of xEventGroupCreate=32 B, free heap now=7624 B
+[ram] ref: sizeof(StaticSemaphore_t)=72 B, heap delta of binary semaphore=80 B
+[sync #50] t=385 ms  period=8000.01 us (avg 7408.15 us)
+  EG-bit     n=50  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #100] t=747 ms  period=7000.04 us (avg 7323.22 us)
+  EG-bit     n=100  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #150] t=1127 ms  period=7974.88 us (avg 7416.09 us)
+  EG-bit     n=150  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #200] t=1486 ms  period=7000.01 us (avg 7356.77 us)
+  EG-bit     n=200  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #250] t=1856 ms  period=8003.18 us (avg 7365.47 us)
+  EG-bit     n=250  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #300] t=2219 ms  period=8999.95 us (avg 7347.81 us)
+  EG-bit     n=300  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #350] t=2591 ms  period=5999.98 us (avg 7361.02 us)
+  EG-bit     n=350  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #400] t=2967 ms  period=7003.18 us (avg 7380.95 us)
+  EG-bit     n=400  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #450] t=3365 ms  period=7000.00 us (avg 7445.43 us)
+  EG-bit     n=450  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #500] t=3739 ms  period=5025.33 us (avg 7448.94 us)
+  EG-bit     n=500  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #550] t=4123 ms  period=8974.72 us (avg 7469.94 us)
+  EG-bit     n=550  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #600] t=4484 ms  period=6025.34 us (avg 7449.11 us)
+  EG-bit     n=600  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #650] t=4860 ms  period=4999.98 us (avg 7454.54 us)
+  EG-bit     n=650  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #700] t=5248 ms  period=9000.00 us (avg 7476.38 us)
+  EG-bit     n=700  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #750] t=5618 ms  period=8003.27 us (avg 7471.29 us)
+  EG-bit     n=750  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #800] t=6000 ms  period=6000.00 us (avg 7481.84 us)
+  EG-bit     n=800  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #850] t=6362 ms  period=6000.00 us (avg 7467.59 us)
+  EG-bit     n=850  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #900] t=6758 ms  period=9003.12 us (avg 7492.76 us)
+  EG-bit     n=900  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #950] t=7141 ms  period=9000.00 us (avg 7501.56 us)
+  EG-bit     n=950  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #1000] t=7512 ms  period=9000.00 us (avg 7497.51 us)
+  EG-bit     n=1000  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #1050] t=7883 ms  period=5996.80 us (avg 7493.79 us)
+  EG-bit     n=1050  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #1100] t=8265 ms  period=6000.00 us (avg 7500.44 us)
+  EG-bit     n=1100  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #1150] t=8650 ms  period=8000.01 us (avg 7509.12 us)
+  EG-bit     n=1150  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #1200] t=9018 ms  period=6999.98 us (avg 7502.91 us)
+  EG-bit     n=1200  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #1250] t=9392 ms  period=8999.98 us (avg 7502.00 us)
+  EG-bit     n=1250  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #1300] t=9751 ms  period=7000.00 us (avg 7489.59 us)
+  EG-bit     n=1300  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #1350] t=10133 ms  period=8025.43 us (avg 7495.19 us)
+  EG-bit     n=1350  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #1400] t=10505 ms  period=8999.95 us (avg 7493.20 us)
+  EG-bit     n=1400  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #1450] t=10895 ms  period=4999.94 us (avg 7503.79 us)
+  EG-bit     n=1450  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #1500] t=11259 ms  period=5999.95 us (avg 7496.31 us)
+  EG-bit     n=1500  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #1550] t=11625 ms  period=6974.65 us (avg 7490.63 us)
+  EG-bit     n=1550  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #1600] t=11993 ms  period=8974.63 us (avg 7486.54 us)
+  EG-bit     n=1600  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #1650] t=12368 ms  period=7974.63 us (avg 7486.95 us)
+  EG-bit     n=1650  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #1700] t=12728 ms  period=7974.66 us (avg 7478.51 us)
+  EG-bit     n=1700  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #1750] t=13110 ms  period=7999.94 us (avg 7483.12 us)
+  EG-bit     n=1750  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #1800] t=13484 ms  period=7000.01 us (avg 7483.04 us)
+  EG-bit     n=1800  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #1850] t=13851 ms  period=5000.00 us (avg 7479.18 us)
+  EG-bit     n=1850  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #1900] t=14223 ms  period=6999.98 us (avg 7478.13 us)
+  EG-bit     n=1900  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #1950] t=14585 ms  period=7974.65 us (avg 7472.02 us)
+  EG-bit     n=1950  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #2000] t=14962 ms  period=8999.94 us (avg 7473.73 us)
+  EG-bit     n=2000  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #2050] t=15340 ms  period=5022.04 us (avg 7475.86 us)
+  EG-bit     n=2050  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #2100] t=15705 ms  period=5999.94 us (avg 7471.65 us)
+  EG-bit     n=2100  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #2150] t=16080 ms  period=8003.20 us (avg 7472.30 us)
+  EG-bit     n=2150  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #2200] t=16452 ms  period=6000.00 us (avg 7471.56 us)
+  EG-bit     n=2200  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #2250] t=16832 ms  period=6000.00 us (avg 7474.43 us)
+  EG-bit     n=2250  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #2300] t=17186 ms  period=4999.91 us (avg 7465.84 us)
+  EG-bit     n=2300  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #2350] t=17556 ms  period=6999.98 us (avg 7464.44 us)
+  EG-bit     n=2350  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #2400] t=17923 ms  period=7974.56 us (avg 7461.84 us)
+  EG-bit     n=2400  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #2450] t=18299 ms  period=8996.79 us (avg 7463.04 us)
+  EG-bit     n=2450  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #2500] t=18673 ms  period=5025.36 us (avg 7463.38 us)
+  EG-bit     n=2500  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #2550] t=19038 ms  period=7025.33 us (avg 7460.18 us)
+  EG-bit     n=2550  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #2600] t=19422 ms  period=9000.05 us (avg 7464.40 us)
+  EG-bit     n=2600  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #2650] t=19795 ms  period=7025.36 us (avg 7464.33 us)
+  EG-bit     n=2650  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #2700] t=20162 ms  period=8996.81 us (avg 7462.01 us)
+  EG-bit     n=2700  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #2750] t=20525 ms  period=6000.04 us (avg 7458.34 us)
+  EG-bit     n=2750  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #2800] t=20905 ms  period=7949.73 us (avg 7460.87 us)
+  EG-bit     n=2800  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #2850] t=21268 ms  period=7025.29 us (avg 7457.36 us)
+  EG-bit     n=2850  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #2900] t=21655 ms  period=7999.98 us (avg 7462.22 us)
+  EG-bit     n=2900  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #2950] t=22026 ms  period=5974.65 us (avg 7461.50 us)
+  EG-bit     n=2950  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #3000] t=22399 ms  period=8974.65 us (avg 7461.48 us)
+  EG-bit     n=3000  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #3050] t=22783 ms  period=6000.00 us (avg 7465.06 us)
+  EG-bit     n=3050  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #3100] t=23161 ms  period=8000.00 us (avg 7466.59 us)
+  EG-bit     n=3100  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #3150] t=23542 ms  period=5974.56 us (avg 7469.02 us)
+  EG-bit     n=3150  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #3200] t=23918 ms  period=7999.95 us (avg 7469.83 us)
+  EG-bit     n=3200  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #3250] t=24280 ms  period=7000.00 us (avg 7466.29 us)
+  EG-bit     n=3250  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #3300] t=24652 ms  period=7999.91 us (avg 7465.88 us)
+  EG-bit     n=3300  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #3350] t=25016 ms  period=7999.98 us (avg 7463.11 us)
+  EG-bit     n=3350  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #3400] t=25375 ms  period=8977.83 us (avg 7458.95 us)
+  EG-bit     n=3400  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #3450] t=25746 ms  period=7000.00 us (avg 7458.38 us)
+  EG-bit     n=3450  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #3500] t=26116 ms  period=6025.22 us (avg 7457.55 us)
+  EG-bit     n=3500  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #3550] t=26477 ms  period=5996.88 us (avg 7454.20 us)
+  EG-bit     n=3550  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #3600] t=26852 ms  period=8000.00 us (avg 7454.84 us)
+  EG-bit     n=3600  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #3650] t=27205 ms  period=9000.00 us (avg 7449.43 us)
+  EG-bit     n=3650  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #3700] t=27576 ms  period=8974.65 us (avg 7449.02 us)
+  EG-bit     n=3700  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #3750] t=27953 ms  period=8000.00 us (avg 7450.25 us)
+  EG-bit     n=3750  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #3800] t=28324 ms  period=6000.08 us (avg 7449.84 us)
+  EG-bit     n=3800  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #3850] t=28696 ms  period=6999.91 us (avg 7449.72 us)
+  EG-bit     n=3850  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #3900] t=29060 ms  period=6003.26 us (avg 7447.54 us)
+  EG-bit     n=3900  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #3950] t=29428 ms  period=6000.08 us (avg 7446.43 us)
+  EG-bit     n=3950  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #4000] t=29805 ms  period=8025.16 us (avg 7447.61 us)
+  EG-bit     n=4000  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #4050] t=30181 ms  period=8974.63 us (avg 7448.50 us)
+  EG-bit     n=4050  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #4100] t=30560 ms  period=8971.68 us (avg 7450.09 us)
+  EG-bit     n=4100  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #4150] t=30941 ms  period=9000.00 us (avg 7452.15 us)
+  EG-bit     n=4150  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #4200] t=31323 ms  period=5996.72 us (avg 7454.38 us)
+  EG-bit     n=4200  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #4250] t=31702 ms  period=7025.29 us (avg 7455.87 us)
+  EG-bit     n=4250  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #4300] t=32066 ms  period=6000.08 us (avg 7453.81 us)
+  EG-bit     n=4300  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #4350] t=32428 ms  period=4999.98 us (avg 7451.36 us)
+  EG-bit     n=4350  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #4400] t=32820 ms  period=7025.34 us (avg 7455.77 us)
+  EG-bit     n=4400  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #4450] t=33180 ms  period=6000.00 us (avg 7452.90 us)
+  EG-bit     n=4450  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #4500] t=33544 ms  period=9000.05 us (avg 7450.98 us)
+  EG-bit     n=4500  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #4550] t=33919 ms  period=8000.01 us (avg 7451.52 us)
+  EG-bit     n=4550  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #4600] t=34293 ms  period=6000.00 us (avg 7451.83 us)
+  EG-bit     n=4600  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #4650] t=34664 ms  period=9000.00 us (avg 7451.48 us)
+  EG-bit     n=4650  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #4700] t=35049 ms  period=8025.40 us (avg 7454.13 us)
+  EG-bit     n=4700  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #4750] t=35420 ms  period=9000.01 us (avg 7453.77 us)
+  EG-bit     n=4750  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #4800] t=35815 ms  period=5000.00 us (avg 7458.41 us)
+  EG-bit     n=4800  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #4850] t=36198 ms  period=5000.00 us (avg 7460.50 us)
+  EG-bit     n=4850  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #4900] t=36584 ms  period=6999.95 us (avg 7463.15 us)
+  EG-bit     n=4900  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #4950] t=36955 ms  period=6999.94 us (avg 7462.70 us)
+  EG-bit     n=4950  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #5000] t=37326 ms  period=7000.08 us (avg 7462.29 us)
+  EG-bit     n=5000  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #5050] t=37699 ms  period=6025.36 us (avg 7462.26 us)
+  EG-bit     n=5050  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #5100] t=38072 ms  period=7003.15 us (avg 7462.23 us)
+  EG-bit     n=5100  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #5150] t=38455 ms  period=7000.00 us (avg 7464.16 us)
+  EG-bit     n=5150  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #5200] t=38847 ms  period=8000.01 us (avg 7467.77 us)
+  EG-bit     n=5200  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #5250] t=39227 ms  period=4999.94 us (avg 7469.04 us)
+  EG-bit     n=5250  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #5300] t=39588 ms  period=8000.00 us (avg 7466.68 us)
+  EG-bit     n=5300  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #5350] t=39971 ms  period=6000.05 us (avg 7468.48 us)
+  EG-bit     n=5350  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #5400] t=40341 ms  period=6000.00 us (avg 7467.86 us)
+  EG-bit     n=5400  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #5450] t=40698 ms  period=8000.08 us (avg 7464.84 us)
+  EG-bit     n=5450  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #5500] t=41086 ms  period=7996.80 us (avg 7467.52 us)
+  EG-bit     n=5500  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #5550] t=41465 ms  period=5000.05 us (avg 7468.54 us)
+  EG-bit     n=5550  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #5600] t=41831 ms  period=6000.00 us (avg 7467.22 us)
+  EG-bit     n=5600  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #5650] t=42196 ms  period=7025.33 us (avg 7465.75 us)
+  EG-bit     n=5650  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #5700] t=42576 ms  period=8003.13 us (avg 7466.91 us)
+  EG-bit     n=5700  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #5750] t=42943 ms  period=8000.08 us (avg 7465.81 us)
+  EG-bit     n=5750  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #5800] t=43325 ms  period=6000.08 us (avg 7467.31 us)
+  EG-bit     n=5800  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #5850] t=43693 ms  period=8000.04 us (avg 7466.40 us)
+  EG-bit     n=5850  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #5900] t=44061 ms  period=7025.34 us (avg 7465.50 us)
+  EG-bit     n=5900  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #5950] t=44435 ms  period=6025.36 us (avg 7465.62 us)
+  EG-bit     n=5950  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #6000] t=44795 ms  period=6000.06 us (avg 7463.40 us)
+  EG-bit     n=6000  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #6050] t=45168 ms  period=7974.63 us (avg 7463.37 us)
+  EG-bit     n=6050  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #6100] t=45530 ms  period=7999.97 us (avg 7461.54 us)
+  EG-bit     n=6100  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #6150] t=45908 ms  period=8974.65 us (avg 7462.34 us)
+  EG-bit     n=6150  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #6200] t=46272 ms  period=6999.98 us (avg 7460.87 us)
+  EG-bit     n=6200  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #6250] t=46636 ms  period=7000.08 us (avg 7459.43 us)
+  EG-bit     n=6250  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #6300] t=47020 ms  period=7993.61 us (avg 7461.18 us)
+  EG-bit     n=6300  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #6350] t=47400 ms  period=8999.95 us (avg 7462.26 us)
+  EG-bit     n=6350  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #6400] t=47777 ms  period=8000.01 us (avg 7462.87 us)
+  EG-bit     n=6400  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #6450] t=48144 ms  period=5999.95 us (avg 7461.93 us)
+  EG-bit     n=6450  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #6500] t=48505 ms  period=9000.08 us (avg 7460.06 us)
+  EG-bit     n=6500  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #6550] t=48881 ms  period=9000.00 us (avg 7460.52 us)
+  EG-bit     n=6550  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #6600] t=49251 ms  period=8974.76 us (avg 7460.06 us)
+  EG-bit     n=6600  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #6650] t=49635 ms  period=7974.65 us (avg 7461.72 us)
+  EG-bit     n=6650  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #6700] t=50009 ms  period=7003.19 us (avg 7461.84 us)
+  EG-bit     n=6700  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #6750] t=50383 ms  period=5025.36 us (avg 7461.98 us)
+  EG-bit     n=6750  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #6800] t=50746 ms  period=6000.01 us (avg 7460.50 us)
+  EG-bit     n=6800  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #6850] t=51133 ms  period=7996.80 us (avg 7462.54 us)
+  EG-bit     n=6850  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #6900] t=51512 ms  period=8999.98 us (avg 7463.38 us)
+  EG-bit     n=6900  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #6950] t=51882 ms  period=5974.83 us (avg 7462.93 us)
+  EG-bit     n=6950  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #7000] t=52259 ms  period=6999.98 us (avg 7463.48 us)
+  EG-bit     n=7000  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #7050] t=52636 ms  period=8999.93 us (avg 7464.02 us)
+  EG-bit     n=7050  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #7100] t=53017 ms  period=5000.00 us (avg 7465.12 us)
+  EG-bit     n=7100  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #7150] t=53394 ms  period=6000.00 us (avg 7465.65 us)
+  EG-bit     n=7150  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #7200] t=53766 ms  period=6999.94 us (avg 7465.47 us)
+  EG-bit     n=7200  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #7250] t=54137 ms  period=8000.02 us (avg 7465.16 us)
+  EG-bit     n=7250  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #7300] t=54504 ms  period=6000.01 us (avg 7464.30 us)
+  EG-bit     n=7300  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #7350] t=54872 ms  period=5025.16 us (avg 7463.59 us)
+  EG-bit     n=7350  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #7400] t=55246 ms  period=7993.58 us (avg 7463.70 us)
+  EG-bit     n=7400  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #7450] t=55628 ms  period=9000.00 us (avg 7464.88 us)
+  EG-bit     n=7450  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #7500] t=55992 ms  period=8974.56 us (avg 7463.65 us)
+  EG-bit     n=7500  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #7550] t=56369 ms  period=8974.63 us (avg 7464.16 us)
+  EG-bit     n=7550  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #7600] t=56746 ms  period=6000.06 us (avg 7464.65 us)
+  EG-bit     n=7600  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #7650] t=57118 ms  period=8974.68 us (avg 7464.50 us)
+  EG-bit     n=7650  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #7700] t=57506 ms  period=9000.01 us (avg 7466.41 us)
+  EG-bit     n=7700  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #7750] t=57873 ms  period=6050.47 us (avg 7465.61 us)
+  EG-bit     n=7750  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #7800] t=58253 ms  period=9003.23 us (avg 7466.45 us)
+  EG-bit     n=7800  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #7850] t=58626 ms  period=8003.26 us (avg 7466.41 us)
+  EG-bit     n=7850  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #7900] t=59006 ms  period=8000.00 us (avg 7467.26 us)
+  EG-bit     n=7900  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #7950] t=59372 ms  period=5025.36 us (avg 7466.34 us)
+  EG-bit     n=7950  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
+[sync #8000] t=59731 ms  period=6025.43 us (avg 7464.55 us)
+  EG-bit     n=8000  min=1051  avg=1051  max=1051 cyc | avg=14.59 us
