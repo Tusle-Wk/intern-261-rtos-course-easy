@@ -2,10 +2,10 @@
 #
 # Điền giá trị vào chỗ <?>. Mỗi dòng phải giải thích được trong buổi vấn đáp.
 
-configPRIO_BITS                                 <?>
-configLIBRARY_LOWEST_INTERRUPT_PRIORITY         <?>
-configLIBRARY_MAX_SYSCALL_INTERRUPT_PRIORITY    <?>
-configASSERT( x )                               <?>
+configPRIO_BITS                                 4
+configLIBRARY_LOWEST_INTERRUPT_PRIORITY         15
+configLIBRARY_MAX_SYSCALL_INTERRUPT_PRIORITY    5
+configASSERT( x )                               if( ( x ) == 0 ) { taskDISABLE_INTERRUPTS(); for( ;; ); }
 
 # ISR_NVIC_PRIO (app/params.h) phải nằm trong khoảng:
 #   configLIBRARY_MAX_SYSCALL_INTERRUPT_PRIORITY  <=  ISR_NVIC_PRIO  <=  configLIBRARY_LOWEST_INTERRUPT_PRIORITY

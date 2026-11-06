@@ -8,17 +8,21 @@
 #include "params.h"
 #include "exti_button.h"
 
+#define ACK_TASK_PRIO    (configMAX_PRIORITIES - 1u) //Prio cao nhất có thể
+#define ACK_TASK_STACK   (128u)   /* words, task chỉ cần toggle 1 chân nên vậy đủ  */
+
 void app_main(void)
 {
+    //cấu hình GPIO, EXTI, NVIC
     exti_button_init();
 
-    /* TODO: xTaskCreate ack_task. Keep its priority high enough that it is
-     *       the thing that actually determines your measured latency, not
-     *       scheduling jitter from something else. Justify the number in
-     *       REPORT.md. */
-
+    BaseType_t rc = xTaskCreate(ack_task, "ack", ACK_TASK_STACK, NULL, ACK_TASK_PRIO, NULL);
+    configASSERT(rc == pdPASS); //check đủ heap tạo task không
+    (void)rc;
+ 
     vTaskStartScheduler();
-
+ 
+    /* Only reached if the scheduler could not start (not enough heap). */
     for (;;) {
     }
 }
