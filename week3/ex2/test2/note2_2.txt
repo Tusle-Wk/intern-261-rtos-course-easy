@@ -1,0 +1,133 @@
+PRESS t=7396 edges=1 since_last_edge=20 ms
+BLOCK enter=7398 exit=7448
+HELD t=7449 held=73 ms
+HELD t=7456 held=80 ms
+HELD t=7496 held=120 ms
+HELD t=7536 held=160 ms
+HELD t=7576 held=200 ms
+HELD t=7616 held=240 ms
+HELD t=7656 held=280 ms
+HELD t=7696 held=320 ms
+HELD t=7736 held=360 ms
+HELD t=7776 held=400 ms
+HELD t=7816 held=440 ms
+HELD t=7856 held=480 ms
+HELD t=7896 held=520 ms
+HELD t=7936 held=560 ms
+HELD t=7976 held=600 ms
+RELEASE t=8001 edges=1 since_last_edge=20 ms
+BLOCK enter=8003 exit=8053
+PRESS t=8903 edges=1 since_last_edge=20 ms
+BLOCK enter=8905 exit=8955
+HELD t=8956 held=73 ms
+HELD t=8963 held=80 ms
+HELD t=9003 held=120 ms
+HELD t=9043 held=160 ms
+HELD t=9083 held=200 ms
+HELD t=9123 held=240 ms
+HELD t=9163 held=280 ms
+HELD t=9203 held=320 ms
+HELD t=9243 held=360 ms
+HELD t=9283 held=400 ms
+HELD t=9323 held=440 ms
+HELD t=9363 held=480 ms
+HELD t=9403 held=520 ms
+HELD t=9443 held=560 ms
+RELEASE t=9488 edges=2 since_last_edge=20 ms
+BLOCK enter=9490 exit=9540
+PRESS t=10529 edges=1 since_last_edge=20 ms
+BLOCK enter=10531 exit=10581
+HELD t=10582 held=73 ms
+HELD t=10589 held=80 ms
+HELD t=10629 held=120 ms
+HELD t=10669 held=160 ms
+HELD t=10709 held=200 ms
+HELD t=10749 held=240 ms
+HELD t=10789 held=280 ms
+HELD t=10829 held=320 ms
+HELD t=10869 held=360 ms
+HELD t=10909 held=400 ms
+HELD t=10949 held=440 ms
+HELD t=10989 held=480 ms
+HELD t=11029 held=520 ms
+HELD t=11069 held=560 ms
+HELD t=11109 held=600 ms
+HELD t=11149 held=640 ms
+RELEASE t=11206 edges=1 since_last_edge=20 ms
+BLOCK enter=11208 exit=11258
+PRESS t=12164 edges=1 since_last_edge=20 ms
+BLOCK enter=12166 exit=12216
+HELD t=12217 held=73 ms
+HELD t=12224 held=80 ms
+HELD t=12264 held=120 ms
+HELD t=12304 held=160 ms
+HELD t=12344 held=200 ms
+HELD t=12384 held=240 ms
+HELD t=12424 held=280 ms
+HELD t=12464 held=320 ms
+HELD t=12504 held=360 ms
+HELD t=12544 held=400 ms
+HELD t=12584 held=440 ms
+HELD t=12624 held=480 ms
+HELD t=12664 held=520 ms
+HELD t=12704 held=560 ms
+HELD t=12744 held=600 ms
+HELD t=12784 held=640 ms
+HELD t=12824 held=680 ms
+RELEASE t=12858 edges=1 since_last_edge=20 ms
+BLOCK enter=12860 exit=12910
+PRESS t=13873 edges=1 since_last_edge=20 ms
+BLOCK enter=13875 exit=13925
+HELD t=13926 held=73 ms
+HELD t=13933 held=80 ms
+HELD t=13973 held=120 ms
+HELD t=14013 held=160 ms
+HELD t=14053 held=200 ms
+HELD t=14093 held=240 ms
+HELD t=14133 held=280 ms
+HELD t=14173 held=320 ms
+HELD t=14213 held=360 ms
+HELD t=14253 held=400 ms
+HELD t=14293 held=440 ms
+HELD t=14333 held=480 ms
+HELD t=14373 held=520 ms
+RELEASE t=14416 edges=1 since_last_edge=20 ms
+BLOCK enter=14418 exit=14468
+RELEASE t=15439 edges=3 since_last_edge=20 ms
+BLOCK enter=15441 exit=15491
+PRESS t=15505 edges=1 since_last_edge=20 ms
+BLOCK enter=15507 exit=15557
+HELD t=15558 held=73 ms
+HELD t=15565 held=80 ms
+HELD t=15605 held=120 ms
+HELD t=15645 held=160 ms
+HELD t=15685 held=200 ms
+HELD t=15725 held=240 ms
+HELD t=15765 held=280 ms
+HELD t=15805 held=320 ms
+HELD t=15845 held=360 ms
+HELD t=15885 held=400 ms
+HELD t=15925 held=440 ms
+HELD t=15965 held=480 ms
+HELD t=16005 held=520 ms
+HELD t=16045 held=560 ms
+RELEASE t=16085 edges=1 since_last_edge=20 ms
+BLOCK enter=16087 exit=16137
+PRESS t=17113 edges=1 since_last_edge=20 ms
+BLOCK enter=17115 exit=17165
+HELD t=17166 held=73 ms
+HELD t=17173 held=80 ms
+HELD t=17213 held=120 ms
+HELD t=17253 held=160 ms
+HELD t=17293 held=200 ms
+HELD t=17333 held=240 ms
+HELD t=17373 held=280 ms
+HELD t=17413 held=320 ms
+HELD t=17453 held=360 ms
+HELD t=17493 held=400 ms
+HELD t=17533 held=440 ms
+HELD t=17573 held=480 ms
+HELD t=17613 held=520 ms
+HELD t=17653 held=560 ms
+RELEASE t=17703 edges=1 since_last_edge=20 ms
+BLOCK enter=17705 exit=17755

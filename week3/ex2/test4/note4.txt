@@ -1,0 +1,10 @@
+RELEASE t=32513 edges=1 since_last_edge=20 ms
+PRESS t=37435 edges=1 since_last_edge=20 ms
+HELD t=38415 held=1000 ms
+HELD t=39415 held=2000 ms
+RELEASE t=40248 edges=7 since_last_edge=20 ms
+PRESS t=41846 edges=1 since_last_edge=20 ms
+HELD t=42826 held=1000 ms
+HELD t=43826 held=2000 ms
+HELD t=44826 held=3000 ms
+RELEASE t=45113 edges=1 since_last_edge=20 ms

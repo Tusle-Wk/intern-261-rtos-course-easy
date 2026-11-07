@@ -1,0 +1,15 @@
+RELEASE t=10292 edges=1 since_last_edge=20 ms
+RELEASE t=10412 edges=1 since_last_edge=20 ms
+PRESS t=16337 edges=25 since_last_edge=20 ms
+RELEASE t=16752 edges=1 since_last_edge=20 ms
+PRESS t=17148 edges=22 since_last_edge=20 ms
+RELEASE t=17483 edges=11 since_last_edge=20 ms
+PRESS t=17887 edges=1 since_last_edge=20 ms
+HELD t=18867 held=1000 ms
+RELEASE t=19096 edges=4 since_last_edge=20 ms
+PRESS t=19428 edges=4 since_last_edge=20 ms
+RELEASE t=20207 edges=20 since_last_edge=20 ms
+PRESS t=23060 edges=1 since_last_edge=20 ms
+RELEASE t=24015 edges=1 since_last_edge=20 ms
+PRESS t=24174 edges=11 since_last_edge=20 ms
+RELEASE t=25113 edges=1 since_last_edge=20 ms

@@ -1,0 +1,94 @@
+PRESS t=14173 edges=1 since_last_edge=20 ms
+HELD t=14193 held=40 ms
+HELD t=14233 held=80 ms
+HELD t=14273 held=120 ms
+HELD t=14313 held=160 ms
+HELD t=14353 held=200 ms
+HELD t=14393 held=240 ms
+RELEASE t=14441 edges=1 since_last_edge=20 ms
+PRESS t=15259 edges=1 since_last_edge=20 ms
+HELD t=15279 held=40 ms
+HELD t=15319 held=80 ms
+HELD t=15359 held=120 ms
+HELD t=15399 held=160 ms
+HELD t=15439 held=200 ms
+HELD t=15479 held=240 ms
+HELD t=15519 held=280 ms
+HELD t=15559 held=320 ms
+HELD t=15599 held=360 ms
+HELD t=15639 held=400 ms
+HELD t=15679 held=440 ms
+HELD t=15719 held=480 ms
+RELEASE t=15769 edges=2 since_last_edge=20 ms
+PRESS t=16567 edges=1 since_last_edge=20 ms
+HELD t=16587 held=40 ms
+HELD t=16627 held=80 ms
+HELD t=16667 held=120 ms
+HELD t=16707 held=160 ms
+HELD t=16747 held=200 ms
+HELD t=16787 held=240 ms
+HELD t=16827 held=280 ms
+HELD t=16867 held=320 ms
+RELEASE t=16896 edges=1 since_last_edge=20 ms
+PRESS t=17977 edges=1 since_last_edge=20 ms
+HELD t=17997 held=40 ms
+HELD t=18037 held=80 ms
+HELD t=18077 held=120 ms
+HELD t=18117 held=160 ms
+HELD t=18157 held=200 ms
+HELD t=18197 held=240 ms
+HELD t=18237 held=280 ms
+HELD t=18277 held=320 ms
+HELD t=18317 held=360 ms
+HELD t=18357 held=400 ms
+HELD t=18397 held=440 ms
+RELEASE t=18447 edges=1 since_last_edge=20 ms
+PRESS t=19489 edges=1 since_last_edge=20 ms
+HELD t=19509 held=40 ms
+HELD t=19549 held=80 ms
+HELD t=19589 held=120 ms
+HELD t=19629 held=160 ms
+HELD t=19669 held=200 ms
+HELD t=19709 held=240 ms
+HELD t=19749 held=280 ms
+HELD t=19789 held=320 ms
+HELD t=19829 held=360 ms
+HELD t=19869 held=400 ms
+HELD t=19909 held=440 ms
+HELD t=19949 held=480 ms
+HELD t=19989 held=520 ms
+RELEASE t=20022 edges=1 since_last_edge=20 ms
+PRESS t=21082 edges=1 since_last_edge=20 ms
+HELD t=21102 held=40 ms
+HELD t=21142 held=80 ms
+HELD t=21182 held=120 ms
+HELD t=21222 held=160 ms
+HELD t=21262 held=200 ms
+HELD t=21302 held=240 ms
+HELD t=21342 held=280 ms
+HELD t=21382 held=320 ms
+HELD t=21422 held=360 ms
+HELD t=21462 held=400 ms
+HELD t=21502 held=440 ms
+HELD t=21542 held=480 ms
+HELD t=21582 held=520 ms
+HELD t=21622 held=560 ms
+RELEASE t=21682 edges=3 since_last_edge=20 ms
+PRESS t=22856 edges=1 since_last_edge=20 ms
+HELD t=22876 held=40 ms
+HELD t=22916 held=80 ms
+HELD t=22956 held=120 ms
+HELD t=22996 held=160 ms
+HELD t=23036 held=200 ms
+HELD t=23076 held=240 ms
+HELD t=23116 held=280 ms
+HELD t=23156 held=320 ms
+HELD t=23196 held=360 ms
+HELD t=23236 held=400 ms
+HELD t=23276 held=440 ms
+HELD t=23316 held=480 ms
+HELD t=23356 held=520 ms
+HELD t=23396 held=560 ms
+HELD t=23436 held=600 ms
+HELD t=23476 held=640 ms
+RELEASE t=23511 edges=5 since_last_edge=20 ms
