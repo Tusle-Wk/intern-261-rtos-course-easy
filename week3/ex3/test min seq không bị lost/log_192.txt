@@ -1,0 +1,87 @@
+C:\Users\Dell\Documents\MLIoT-intern\intern-261-rtos-course-easy\week3\ex3>python burst.py COM4 500 3.0
+gui 500 lenh (3890 B) trong 1.497 s -> 2598 B/s (phia PC)
+nhan dung 500, mat/loi 0
+
+C:\Users\Dell\Documents\MLIoT-intern\intern-261-rtos-course-easy\week3\ex3>python burst.py COM4 500 2.5
+gui 500 lenh (3890 B) trong 1.248 s -> 3118 B/s (phia PC)
+nhan dung 434, mat/loi 66
+
+C:\Users\Dell\Documents\MLIoT-intern\intern-261-rtos-course-easy\week3\ex3>python burst.py COM4 500 2.2
+gui 500 lenh (3890 B) trong 1.098 s -> 3543 B/s (phia PC)
+nhan dung 387, mat/loi 113
+
+C:\Users\Dell\Documents\MLIoT-intern\intern-261-rtos-course-easy\week3\ex3>python burst.py COM4 500 2.8
+gui 500 lenh (3890 B) trong 1.397 s -> 2784 B/s (phia PC)
+nhan dung 491, mat/loi 9
+
+C:\Users\Dell\Documents\MLIoT-intern\intern-261-rtos-course-easy\week3\ex3>python burst.py COM4 500 3.0
+gui 500 lenh (3890 B) trong 1.497 s -> 2598 B/s (phia PC)
+nhan dung 499, mat/loi 1
+
+C:\Users\Dell\Documents\MLIoT-intern\intern-261-rtos-course-easy\week3\ex3>python burst.py COM4 500 2.9
+gui 500 lenh (3890 B) trong 1.447 s -> 2688 B/s (phia PC)
+nhan dung 500, mat/loi 0
+
+C:\Users\Dell\Documents\MLIoT-intern\intern-261-rtos-course-easy\week3\ex3>python burst.py COM4 500 2.8
+gui 500 lenh (3890 B) trong 1.448 s -> 2687 B/s (phia PC)
+nhan dung 491, mat/loi 9
+
+C:\Users\Dell\Documents\MLIoT-intern\intern-261-rtos-course-easy\week3\ex3>python burst.py COM4 500 2.9
+gui 500 lenh (3890 B) trong 1.447 s -> 2688 B/s (phia PC)
+nhan dung 499, mat/loi 1
+
+C:\Users\Dell\Documents\MLIoT-intern\intern-261-rtos-course-easy\week3\ex3>python burst.py COM4 500 3.0
+gui 500 lenh (3890 B) trong 1.497 s -> 2598 B/s (phia PC)
+nhan dung 500, mat/loi 0, lenh mat: []
+
+C:\Users\Dell\Documents\MLIoT-intern\intern-261-rtos-course-easy\week3\ex3>python burst.py COM4 500 3.0
+gui 500 lenh (3890 B) trong 1.497 s -> 2598 B/s (phia PC)
+nhan dung 500, mat/loi 0, lenh mat: []
+
+C:\Users\Dell\Documents\MLIoT-intern\intern-261-rtos-course-easy\week3\ex3>python burst.py COM4 500 3.0
+gui 500 lenh (3890 B) trong 1.497 s -> 2598 B/s (phia PC)
+nhan dung 500, mat/loi 0, lenh mat: []
+
+C:\Users\Dell\Documents\MLIoT-intern\intern-261-rtos-course-easy\week3\ex3>python burst.py COM4 500 3.2
+gui 500 lenh (3890 B) trong 1.597 s -> 2436 B/s (phia PC)
+nhan dung 500, mat/loi 0, lenh mat: []
+
+C:\Users\Dell\Documents\MLIoT-intern\intern-261-rtos-course-easy\week3\ex3>python burst.py COM4 500 3.2
+gui 500 lenh (3890 B) trong 1.597 s -> 2436 B/s (phia PC)
+nhan dung 500, mat/loi 0, lenh mat: []
+
+C:\Users\Dell\Documents\MLIoT-intern\intern-261-rtos-course-easy\week3\ex3>python burst.py COM4 500 3.2
+gui 500 lenh (3890 B) trong 1.597 s -> 2436 B/s (phia PC)
+nhan dung 500, mat/loi 0, lenh mat: []
+
+C:\Users\Dell\Documents\MLIoT-intern\intern-261-rtos-course-easy\week3\ex3>python burst.py COM4 500 2.9
+gui 500 lenh (3890 B) trong 1.447 s -> 2688 B/s (phia PC)
+nhan dung 500, mat/loi 0, lenh mat: []
+
+C:\Users\Dell\Documents\MLIoT-intern\intern-261-rtos-course-easy\week3\ex3>python burst.py COM4 500 2.9
+gui 500 lenh (3890 B) trong 1.447 s -> 2688 B/s (phia PC)
+nhan dung 500, mat/loi 0, lenh mat: []
+
+C:\Users\Dell\Documents\MLIoT-intern\intern-261-rtos-course-easy\week3\ex3>python burst.py COM4 500 2.9
+gui 500 lenh (3890 B) trong 1.447 s -> 2688 B/s (phia PC)
+nhan dung 500, mat/loi 0, lenh mat: []
+
+C:\Users\Dell\Documents\MLIoT-intern\intern-261-rtos-course-easy\week3\ex3>python burst.py COM4 500 2.8
+gui 500 lenh (3890 B) trong 1.397 s -> 2784 B/s (phia PC)
+nhan dung 491, mat/loi 9, lenh mat: [479, 480, 481, 482, 483, 496, 497, 498, 499]
+
+C:\Users\Dell\Documents\MLIoT-intern\intern-261-rtos-course-easy\week3\ex3>python burst.py COM4 500 2.9
+gui 500 lenh (3890 B) trong 1.447 s -> 2688 B/s (phia PC)
+nhan dung 499, mat/loi 1, lenh mat: [0]
+
+C:\Users\Dell\Documents\MLIoT-intern\intern-261-rtos-course-easy\week3\ex3>python burst.py COM4 500 2.85
+gui 500 lenh (3890 B) trong 1.422 s -> 2735 B/s (phia PC)
+nhan dung 500, mat/loi 0, lenh mat: []
+
+C:\Users\Dell\Documents\MLIoT-intern\intern-261-rtos-course-easy\week3\ex3>python burst.py COM4 500 2.85
+gui 500 lenh (3890 B) trong 1.422 s -> 2735 B/s (phia PC)
+nhan dung 500, mat/loi 0, lenh mat: []
+
+C:\Users\Dell\Documents\MLIoT-intern\intern-261-rtos-course-easy\week3\ex3>python burst.py COM4 500 2.85
+gui 500 lenh (3890 B) trong 1.422 s -> 2735 B/s (phia PC)
+nhan dung 500, mat/loi 0, lenh mat: []
