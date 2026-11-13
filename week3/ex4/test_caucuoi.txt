@@ -1,0 +1,221 @@
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1226		1%
+supervisor     	1758		2%
+task_beta      	2410		3%
+
+stats        eRunning   runtime=711500
+IDLE         eReady     runtime=0
+task_alpha   eBlocked   runtime=4032
+task_beta    eBlocked   runtime=6194
+supervisor   eBlocked   runtime=1758
+
+refresh gap max=50000 us
+stats          	2460856		1%
+IDLE           	142977163		97%
+task_alpha     	335599		<1%
+task_beta      	507294		<1%
+supervisor     	242800		<1%
+
+stats        eRunning   runtime=3538054
+IDLE         eReady     runtime=142977163
+task_beta    eBlocked   runtime=507294
+task_alpha   eBlocked   runtime=336880
+supervisor   eBlocked   runtime=242800
+
+refresh gap max=85978 us
+stats          	5161128		1%
+IDLE           	285935892		97%
+task_alpha     	667166		<1%
+task_beta      	1008594		<1%
+supervisor     	484131		<1%
+
+stats        eRunning   runtime=6017435
+IDLE         eReady     runtime=285935892
+task_alpha   eBlocked   runtime=671253
+task_beta    eBlocked   runtime=1014774
+supervisor   eBlocked   runtime=484131
+
+refresh gap max=86152 us
+stats          	7869251		1%
+IDLE           	428887227		97%
+task_alpha     	1002348		<1%
+task_beta      	1511198		<1%
+supervisor     	725688		<1%
+
+stats        eRunning   runtime=8874450
+IDLE         eReady     runtime=428887227
+task_alpha   eBlocked   runtime=1003616
+task_beta    eBlocked   runtime=1511198
+supervisor   eBlocked   runtime=725688
+
+refresh gap max=86274 us
+stats          	10593886		1%
+IDLE           	572030758		97%
+task_alpha     	1314270		<1%
+task_beta      	1823120		<1%
+supervisor     	966876		<1%
+
+stats        eRunning   runtime=11452776
+IDLE         eReady     runtime=572030758
+task_alpha   eBlocked   runtime=1318112
+task_beta    eBlocked   runtime=1826962
+supervisor   eBlocked   runtime=966876
+
+refresh gap max=86552 us
+stats          	13333217		1%
+IDLE           	715227027		97%
+task_alpha     	1630052		<1%
+task_beta      	2138707		<1%
+supervisor     	1207907		<1%
+
+stats        eRunning   runtime=14197217
+IDLE         eReady     runtime=715227027
+task_alpha   eBlocked   runtime=1631320
+task_beta    eBlocked   runtime=2138707
+supervisor   eBlocked   runtime=1207907
+
+refresh gap max=86659 us
+stats          	16089110		1%
+IDLE           	858412574		97%
+task_alpha     	1943237		<1%
+task_beta      	2450629		<1%
+supervisor     	1449360		<1%
+
+stats        eRunning   runtime=16733268
+IDLE         eReady     runtime=858412574
+task_alpha   eBlocked   runtime=1945811
+task_beta    eBlocked   runtime=2454471
+supervisor   eBlocked   runtime=1449360
+
+refresh gap max=86686 us
+stats          	18840862		1%
+IDLE           	1001596960		97%
+task_alpha     	2257733		<1%
+task_beta      	2766411		<1%
+supervisor     	1690944		<1%
+
+stats        eRunning   runtime=19917021
+IDLE         eReady     runtime=1001596960
+task_beta    eBlocked   runtime=2767679
+task_alpha   eBlocked   runtime=2261575
+supervisor   eBlocked   runtime=1690944
+
+refresh gap max=86838 us
+stats          	21607637		1%
+IDLE           	1144772448		97%
+task_beta      	3078333		<1%
+task_alpha     	2573297		<1%
+supervisor     	1931998		<1%
+
+stats        eRunning   runtime=22035567
+IDLE         eReady     runtime=1144772448
+task_alpha   eBlocked   runtime=2573297
+task_beta    eBlocked   runtime=3082175
+supervisor   eBlocked   runtime=1931998
+
+refresh gap max=86942 us
+stats          	24376007		1%
+IDLE           	1287940383		97%
+task_alpha     	2885219		<1%
+task_beta      	3394115		<1%
+supervisor     	2173186		<1%
+
+stats        eRunning   runtime=25236166
+IDLE         eReady     runtime=1287940383
+task_beta    eBlocked   runtime=3395383
+task_alpha   eBlocked   runtime=2889061
+supervisor   eBlocked   runtime=2173186
+
+refresh gap max=86977 us
+stats          	27148564		1%
+IDLE           	1431105782		97%
+task_beta      	3707300		<1%
+task_alpha     	3201001		<1%
+supervisor     	2414264		<1%
+
+stats        eRunning   runtime=27364566
+IDLE         eReady     runtime=1431105782
+task_alpha   eBlocked   runtime=3201001
+task_beta    eBlocked   runtime=3709874
+supervisor   eBlocked   runtime=2414264
+
+refresh gap max=86977 us
+stats          	29918804		1%
+IDLE           	1574275690		97%
+task_alpha     	3512923		<1%
+task_beta      	4021796		<1%
+supervisor     	2655697		<1%
+
+stats        eRunning   runtime=30921694
+IDLE         eReady     runtime=1574275690
+task_alpha   eBlocked   runtime=3516765
+task_beta    eBlocked   runtime=4025638
+supervisor   eBlocked   runtime=2655697
+
+refresh gap max=86977 us
+stats          	32688457		1%
+IDLE           	1717443941		97%
+task_alpha     	3828705		<1%
+task_beta      	4337360		<1%
+supervisor     	2897249		<1%
+
+stats        eRunning   runtime=33693655
+IDLE         eReady     runtime=1717443941
+task_alpha   eBlocked   runtime=3829973
+task_beta    eBlocked   runtime=4337360
+supervisor   eBlocked   runtime=2897249
+
+refresh gap max=86977 us
+stats          	35456217		1%
+IDLE           	1860616715		97%
+task_alpha     	4141895		<1%
+task_beta      	4649282		<1%
+supervisor     	3138297		<1%
+
+stats        eRunning   runtime=36242880
+IDLE         eReady     runtime=1860616715
+task_alpha   eBlocked   runtime=4144469
+task_beta    eBlocked   runtime=4653124
+supervisor   eBlocked   runtime=3138297
+
+refresh gap max=86977 us
+stats          	38220206		1%
+IDLE           	2003787753		97%
+task_alpha     	4456409		<1%
+task_beta      	4965064		<1%
+supervisor     	3379478		<1%
+
+stats        eRunning   runtime=39370938
+IDLE         eReady     runtime=2003787753
+task_beta    eBlocked   runtime=4965064
+task_alpha   eBlocked   runtime=4460251
+supervisor   eBlocked   runtime=3379478
+
+refresh gap max=86977 us
+stats          	40990373		1%
+IDLE           	2146959351		97%
+task_alpha     	4769399		<1%
+task_beta      	5276986		<1%
+supervisor     	3620802		<1%
+
+stats        eRunning   runtime=41562530
+IDLE         eReady     runtime=2146959351
+task_alpha   eBlocked   runtime=4771973
+task_beta    eBlocked   runtime=5280828
+supervisor   eBlocked   runtime=3620802
+
+refresh gap max=86977 us
+stats          	43756753		1%
+IDLE           	2290129259		97%
+task_alpha     	5083895		<1%
+task_beta      	5592768		<1%
+supervisor     	3862235		<1%
+
+stats        eRunning   runtime=44760911
+IDLE         eReady     runtime=2290129259
+task_beta    eBlocked   runtime=5594036
+task_alpha   eBlocked   runtime=5087737
+supervisor   eBlocked   runtime=3862235
+

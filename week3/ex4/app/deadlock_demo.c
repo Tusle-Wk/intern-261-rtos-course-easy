@@ -39,12 +39,8 @@ void task_alpha(void *argument)
         xSemaphoreGive(s_mutex_b);
         xSemaphoreGive(s_mutex_a);
 
-        /* TODO (step 4 of README, after the deadlock is fixed): call
-         *       supervisor_checkin(SUPERVISOR_BIT_ALPHA) here, AFTER both
-         *       mutexes are released -- that is what makes the check-in mean
-         *       "this task completed a full cycle", not just "this task is
-         *       still being scheduled". */
-
+        supervisor_checkin(SUPERVISOR_BIT_ALPHA);
+ 
         vTaskDelay(pdMS_TO_TICKS(20));
     }
 }
@@ -54,18 +50,25 @@ void task_beta(void *argument)
     (void)argument;
 
     for (;;) {
-        xSemaphoreTake(s_mutex_b, portMAX_DELAY);
-        vTaskDelay(pdMS_TO_TICKS(5)); /* simulated UART buffer access time */
-        xSemaphoreTake(s_mutex_a, portMAX_DELAY);
+        //xSemaphoreTake(s_mutex_b, portMAX_DELAY);
+        //vTaskDelay(pdMS_TO_TICKS(5)); /* simulated UART buffer access time */
+        //xSemaphoreTake(s_mutex_a, portMAX_DELAY);
 
         /* ... shared work using both resources ... */
 
-        xSemaphoreGive(s_mutex_a);
-        xSemaphoreGive(s_mutex_b);
+        //xSemaphoreGive(s_mutex_a);
+        //xSemaphoreGive(s_mutex_b);
 
-        /* TODO (step 4 of README, after the deadlock is fixed): call
-         *       supervisor_checkin(SUPERVISOR_BIT_BETA) here, AFTER both
-         *       mutexes are released. */
+        //fixed
+        xSemaphoreTake(s_mutex_a, portMAX_DELAY);          /* đổi từ b sang a */
+        vTaskDelay(pdMS_TO_TICKS(5));
+        xSemaphoreTake(s_mutex_b, portMAX_DELAY);          /* đổi từ a sang b */
+        
+        xSemaphoreGive(s_mutex_b);                         /* nhả b trước */
+        xSemaphoreGive(s_mutex_a);                         /* rồi a */
+
+
+        supervisor_checkin(SUPERVISOR_BIT_BETA);
 
         vTaskDelay(pdMS_TO_TICKS(20));
     }

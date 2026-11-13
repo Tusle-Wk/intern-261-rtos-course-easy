@@ -10,34 +10,49 @@
 #include "params.h"
 #include "supervisor.h"
 
-EventGroupHandle_t supervisor_events;
+#include <stdio.h>
+EventGroupHandle_t supervisor_events; //handle của event group
 
-#define ALL_BITS ((1u << SUPERVISOR_BITS) - 1u)
+#define ALL_BITS ((1u << SUPERVISOR_BITS) - 1u) // =7 = 0b111
+
+#define IWDG_LSI_HZ        (40000u) //iwdg dùng lsi, cỡ 40khz
+#define IWDG_PRESCALER_DIV (4u)     //prescaler /4 cho iwdg
+#define IWDG_RELOAD        ((IWDG_TIMEOUT_MS * (IWDG_LSI_HZ / IWDG_PRESCALER_DIV)) / 1000u) //40khz/4=10k nhịp mỗi giây, cần 250ms ->2500 nhịp
+ 
+#define SUPERVISOR_WAIT_MS (100) //thời gian tối đa mỗi lần supervisor chờ đủ bit, phải nhỏ hơn tg reset của iwdg
+ 
+static IWDG_HandleTypeDef hiwdg; //handle của iwdg
 
 void supervisor_init(void)
 {
-    /* TODO 1: supervisor_events = xEventGroupCreate(); check non-NULL.
-     *
-     * TODO 2: HAL IWDG init here (IWDG_TIMEOUT_MS -> prescaler + reload per
-     *         RM0008 IWDG chapter; IWDG runs off LSI, ~40 kHz, compute the
-     *         reload value and show the computation in REPORT.md). */
+    supervisor_events = xEventGroupCreate(); //tạo eventgroup
+    configASSERT(supervisor_events != NULL);//check ram đủ để tạo hay không
+ 
+    //config cho iwdg
+    hiwdg.Instance = IWDG;
+    hiwdg.Init.Prescaler = IWDG_PRESCALER_4;
+    hiwdg.Init.Reload = IWDG_RELOAD;
+    //lỗi khởi tạo thì vô loop
+    if (HAL_IWDG_Init(&hiwdg) != HAL_OK) {
+        for (;;) {
+        }
+    }
 }
 
 void supervisor_task(void *argument)
 {
     (void)argument;
-
+    EventBits_t bits;
+ 
     for (;;) {
-        /* TODO 3: xEventGroupWaitBits(supervisor_events, ALL_BITS, pdTRUE,
-         *         pdTRUE, <timeout>) -- clear-on-exit, wait-for-all. Pick a
-         *         timeout tighter than IWDG_TIMEOUT_MS but loose enough that
-         *         normal scheduling jitter does not cause a false trip;
-         *         justify the number in REPORT.md.
-         *
-         * TODO 4: if the wait actually collected ALL_BITS (check the return
-         *         value against ALL_BITS, do not assume success just because
-         *         the call returned), HAL_IWDG_Refresh(&hiwdg). Otherwise do
-         *         NOTHING -- that is what lets IWDG_TIMEOUT_MS expire and
-         *         reset the board when a task stops checking in. */
+        //chờ đủ các task bật bit 
+        bits = xEventGroupWaitBits(supervisor_events, ALL_BITS, pdTRUE,
+                                   pdTRUE, pdMS_TO_TICKS(SUPERVISOR_WAIT_MS));
+ 
+        if ((bits & ALL_BITS) == ALL_BITS) { //tất cả bật bit hết rồi thì mới nạp lại iwdg
+            HAL_IWDG_Refresh(&hiwdg);
+        }
     }
+
+    
 }

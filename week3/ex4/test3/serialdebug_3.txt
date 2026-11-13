@@ -1,0 +1,1728 @@
+stats          	127675983		5%
+IDLE           	2282395172		93%
+task_beta      	23359666		<1%
+task_alpha     	15502867		<1%
+supervisor     	2580133		<1%
+
+stats        eRunning   runtime=128029077
+IDLE         eReady     runtime=2282395172
+task_alpha   eBlocked   runtime=15502867
+task_beta    eBlocked   runtime=23362267
+supervisor   eBlocked   runtime=2580133
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
+boot
+stats          	0		<1%
+IDLE           	0		<1%
+task_alpha     	1236		1%
+task_beta      	1277		1%
+supervisor     	1756		2%
+
+stats        eRunning   runtime=356857
+IDLE         eReady     runtime=0
+supervisor   eBlocked   runtime=1756
+task_alpha   eBlocked   runtime=3635
+task_beta    eBlocked   runtime=3704
+
