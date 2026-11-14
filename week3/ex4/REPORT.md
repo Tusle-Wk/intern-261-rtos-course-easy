@@ -1,6 +1,6 @@
 # Report — Week 3 / Ex4
 
-`student_id`: 2413858    Commit của PREDICTION.md: ______
+`student_id`: 2413858    Commit của PREDICTION.md: 4e71db6
 
 ## 1. Bảng CPU %
 | Task | CPU % (lần đo 1) | CPU % (lần đo 2) |
