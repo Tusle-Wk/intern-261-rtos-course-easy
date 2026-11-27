@@ -3,6 +3,7 @@
  * Native FreeRTOS API only.
  */
 #include "FreeRTOS.h"
+#include "task.h"
 #include "queue.h"
 
 #include "main.h"
@@ -11,34 +12,49 @@
 #include "mpu6050.h"
 #include "sampler_isr.h"
 
+#define SAMPLE_QUEUE_LENGTH  64
+
 QueueHandle_t sample_queue;
+TaskHandle_t sampler_task_handle;
+
+static TIM_HandleTypeDef htim3;
 
 void sampler_isr_init(void)
 {
-    /* TODO 1: create sample_queue = xQueueCreate(N, sizeof(sensor_sample_t))
-     *         before the scheduler starts -- pick N from your ex1 RAM
-     *         budget, not an arbitrary number.
-     *
-     * TODO 2: configure a free-running timer (NOT TIM4) to interrupt at
-     *         SAMPLE_RATE_HZ and call sampler_timer_callback() from its
-     *         IRQ handler. Set its NVIC priority numerically AT OR BELOW
-     *         configMAX_SYSCALL_INTERRUPT_PRIORITY (i.e. a priority value
-     *         that is numerically >= the threshold) so FromISR calls are
-     *         legal -- see week3/ex1 if you need a refresher on why. */
+    sample_queue = xQueueCreate(SAMPLE_QUEUE_LENGTH, sizeof(sensor_sample_t)); //tạo queue chứa 64 phần tử, mỗi phần tử 16 byte
+
+    //bật DWT để lấy tick thật
+    CoreDebug->DEMCR |= CoreDebug_DEMCR_TRCENA_Msk;
+    DWT->CYCCNT = 0;
+    DWT->CTRL |= DWT_CTRL_CYCCNTENA_Msk;
+
+    //config và khởi tạo TIM3
+    __HAL_RCC_TIM3_CLK_ENABLE();
+    htim3.Instance = TIM3;
+    htim3.Init.Prescaler = 7199;
+    htim3.Init.Period = (10000 / SAMPLE_RATE_HZ) - 1;
+    HAL_TIM_Base_Init(&htim3);
+
+    //config ngắt cho TIM3
+    HAL_NVIC_SetPriority(TIM3_IRQn, 7, 0);
+    HAL_NVIC_EnableIRQ(TIM3_IRQn);
+    HAL_TIM_Base_Start_IT(&htim3);
 }
 
+//handler IRQ của ngắt TIM3 mỗi 2ms
+void TIM3_IRQHandler(void)
+{
+    if (__HAL_TIM_GET_FLAG(&htim3, TIM_FLAG_UPDATE)) {
+        __HAL_TIM_CLEAR_FLAG(&htim3, TIM_FLAG_UPDATE);
+        sampler_timer_callback();
+    }
+}
+
+//hàm xử lý ngắt
 void sampler_timer_callback(void)
 {
-    sensor_sample_t s;
-    mpu6050_read_sample(&s);
-
-    /* BUG (seeded, you must find and fix this): xQueueSend() is the
-     * task-context API. Calling it from an ISR is undefined behavior --
-     * it can call the scheduler directly instead of deferring via
-     * xHigherPriorityTaskWoken, which configASSERT will catch (or, if
-     * asserts are compiled out, it can corrupt the scheduler's internal
-     * state silently). Replace with xQueueSendFromISR() and the
-     * xHigherPriorityTaskWoken + portYIELD_FROM_ISR() pattern from
-     * week3/ex1's ack_task wake-up. */
-    xQueueSend(sample_queue, &s, 0);
+    BaseType_t xHigherPriorityTaskWoken = pdFALSE;
+    //đánh thức task bị block do chờ qua xTaskNotifyWait() hoặc ulTaskNotifyTake()
+    xTaskNotifyFromISR(sampler_task_handle, DWT->CYCCNT, eSetValueWithOverwrite, &xHigherPriorityTaskWoken); 
+    portYIELD_FROM_ISR(xHigherPriorityTaskWoken); //nhảy qua task có độ ưu tiên cao hơn task hiện tại ngay nếu có
 }

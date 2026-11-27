@@ -1,0 +1,30 @@
+C:\Users\Dell\Documents\MLIoT-intern\intern-261-rtos-course-easy\week4\ex2>python capture_check.py COM4 5
+tong byte        : 41117
+lech khung (off) : 0
+so mau           : 2569
+delta = 2 ms     : 2567/2568
+mau bi mat       : 17155
+delta bat thuong : 0
+delta TB         : 15360.4 us (ly thuyet 2000)
+byte/s           : 8055 (ly thuyet 8000)
+khoi/s           : 7.8659 (ly thuyet 7.8125)
+
+C:\Users\Dell\Documents\MLIoT-intern\intern-261-rtos-course-easy\week4\ex2>python -c "import struct;o=5;d=open('dump.bin','rb').read();[print(struct.unpack_from('<I6h',d,o+16*i)) for i in range(100,105)]"
+(1224488712, -7365, 3837, -256, 15102, -3772, -24040)
+(754720776, -8389, 5885, -256, -17666, -3210, 30488)
+(956047112, -7365, 5885, -1024, 15102, -2647, 15384)
+(1828456200, -6597, 2557, -2560, -17666, -2085, 14360)
+(1627132424, -5317, -2563, -3841, 15102, -1522, 21784)
+
+C:\Users\Dell\Documents\MLIoT-intern\intern-261-rtos-course-easy\week4\ex2>python capture_check.py COM4 30
+tong byte        : 240797
+lech khung (off) : 9
+so mau           : 15049
+delta = 2 ms     : 15048/15048
+mau bi mat       : 0
+delta bat thuong : 0
+delta TB         : 2000.0 us (ly thuyet 2000)
+byte/s           : 8025 (ly thuyet 8000)
+khoi/s           : 7.8372 (ly thuyet 7.8125)
+
+C:\Users\Dell\Documents\MLIoT-intern\intern-261-rtos-course-easy\week4\ex2>

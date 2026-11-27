@@ -1,0 +1,6 @@
+Làm gì: tạm thêm vào uart_task đoạn đọc DWT->CYCCNT trước và sau HAL_UART_Transmit, lưu hiệu số vào tx_cycles, Pause vài lần để đọc, rồi xóa đoạn đó.
+Dự đoán: 1024 B × 10 bit ÷ 115200 baud = 88.889 us (= 6.400.000 chu kỳ).
+Thực tế: 7.763.513, 7.763.581 và 7.763.815 chu kỳ, chia 72 ra 107.827, 107.828 và 107.831 us, trung bình khoảng 107.830 us.
+Lệch: dài hơn 21%. Nguyên nhân phù hợp với số liệu (là suy luận): HAL_UART_Transmit chờ bằng vòng lặp và uart_task ưu tiên thấp nhất. Mỗi 2 ms, 
+sampler_task và logger_task chen vào chiếm CPU khoảng 0,5 ms, dài hơn thời gian đệm hai thanh ghi UART (khoảng 174 us), nên đường truyền bị trống từng đoạn. 
+Khối vẫn kết thúc trước chu kỳ 128 ms nên không mất mẫu. UART bận khoảng 84% thay vì 69% như dự đoán.

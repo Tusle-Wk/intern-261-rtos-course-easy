@@ -2,9 +2,11 @@
 #define SAMPLER_ISR_H
 
 #include "FreeRTOS.h"
+#include "task.h"
 #include "queue.h"
 
 extern QueueHandle_t sample_queue;
+extern TaskHandle_t sampler_task_handle; //thêm handle của task lấy mẫu extern
 
 /* Starts a hardware timer (TIMx, not TIM4 -- that one is the HAL timebase)
  * that interrupts at SAMPLE_RATE_HZ and calls sampler_timer_callback() from

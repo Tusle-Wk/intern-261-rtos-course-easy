@@ -12,14 +12,16 @@
 
 void app_main(void)
 {
-    mpu6050_init();
-    sampler_isr_init();
+    mpu6050_init(); //khởi động MPU6050
+    logger_init(); //tạo stream buffer, phải có trước khi các task chạy
 
-    /* TODO: xTaskCreate(logger_task, ...) at the priority you justified in
-     *       week4/ex1/REPORT.md section 1. Do not pick priorities
-     *       differently here without updating the design doc. */
+    xTaskCreate(sampler_task, "sampler", 128, NULL, 3, &sampler_task_handle); //task lấy mẫu, priority 3, stack 128 words
+    xTaskCreate(logger_task,  "proc",    128, NULL, 2, NULL); //task xử lý, priority 2
+    xTaskCreate(uart_task,    "uart",    128, NULL, 1, NULL); //task ghi UART, priority 1
 
-    vTaskStartScheduler();
+    sampler_isr_init(); //tạo queue, bật DWT và bật timer
+
+    vTaskStartScheduler(); //bắt đầu chạy task
 
     for (;;) {
     }
